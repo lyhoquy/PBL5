@@ -17,5 +17,5 @@ DESTINATIONS_PATH = os.path.join(BASE_DIR, 'static/destinations.json')
 
 IMG_SIZE = 224
 
-HOST = '0.0.0.0'
+HOST = '192.168.1.102'
 PORT = 5000
