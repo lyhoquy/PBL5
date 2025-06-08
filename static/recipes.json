@@ -1,0 +1,747 @@
+{
+    "pho": {
+        "name": "Phở bò Hà Nội",
+        "ingredients": [
+            "Xương ống bò   1 kg",
+            "Xương bò có lẫn thịt   1 kg",
+            "Bắp bò   0.8 kg",
+            "Thịt bò loại ngon   0.8 kg",
+            "Hành tây   2 củ",
+            "Gừng nhỏ   1 củ",
+            "Trái thảo   2 quả",
+            "Hoa hồi   10 cái",
+            "Thanh quế nhỏ   1 cái"
+        ],
+        "recipe": [
+            "Sơ chế xương bò: Xương bò mua về bạn sẽ đem đi rửa sơ với nước cho sạch bụi bẩn, sau đó, bạn cho xương vào nồi, đổ ngập nước rồi bắc lên bếp, cho thêm khoảng 1/2 muỗng canh muối, 1 muỗng canh giấm và 1 miếng gừng đập giập, đậy nắp đun ở lửa vừa. Khi nước bắt đầu bốc khói thì bạn tắt bếp, tiếp tục đậy nắp và giữ yên trong 10 - 15 phút. Tiếp đến, bạn đổ bỏ phần nước luộc xương đi, rửa sạch nồi và rửa sơ lại các khúc xương, sau đó xếp xương ra rổ cho ráo nước.",
+            "Sơ chế thịt bò tái: Miếng thịt bò dùng làm thịt bò tái sau khi mua về thì bạn hãy đem đi rửa sạch, sau đó dùng giấy ăn thấm cho ráo. Bạn chia nhỏ khối thịt theo chiều thớ dọc, lóc bỏ gân đi. Tiến hành thái thịt thành các lát thật mỏng rồi ướp cùng với 1 nhánh gừng băm nhỏ, 1/2 thìa cà phê muối, 1/2 thìa cà phê bột canh, 1/2 thìa cà phê đường, 1/3 thìa cà phê tiêu xay. Bạn trộn đều thịt cho ngấm gia vị, sau đó cho thịt vào hộp đựng và bảo quản trong ngăn mát tủ lạnh.",
+            "Ninh xương bò: Bạn lau khô lòng nồi rồi bắc nồi luộc lên bếp, khi nồi nóng thì cho hoa hồi, thảo quả đập vỡ và quế vào, rang ở lửa to cho thơm rồi lấy ra. Bạn cho tiếp hành tây cắt làm 4 và gừng củ cắt đôi vào nướng trên nồi cho cháy xém các mặt, sau đó bạn gắp gừng ra, cho các gia vị đã rang thơm trở vào nồi rồi đổ nước ngập lưng chừng. Bạn xếp bắp bò và xương bò vào nồi, đổ thêm nước để ngập xương. Gừng đã nướng bạn sẽ dùng cán dao đập cho hơi giập rồi thả vào nồi nước, nêm thêm 1 thìa canh muối, 3/4 thìa canh bột canh (hoặc bột ngọt). Khi nước bắt đầu sôi thì bạn tiến hành hớt bọt. Bạn hớt bọt càng sạch thì nước dùng sẽ càng trong. Bạn hạ nhỏ lửa cho nước sôi liu riu và để hầm trong 2 giờ.",
+            "Sơ chế thịt bắp bò: Sau 2 giờ ninh thì bạn hãy gắp thịt bắp bò ra, cho vào một chiếc nồi nhỏ, tiếp đến, múc nước dùng cho qua nồi sao cho bắp bò chìm trong nước dùng. Bạn cho cả nồi chứa bắp bò vào một chiếc thao lớn, cho nước vào thao để làm nguội bắp bò. Sau khi thịt bắp bò nguội thì bạn hãy thái thành các lát mỏng vừa ăn.",
+            "Ninh xương lần 2: Lúc này, bạn hãy vớt hành tây, hoa hồi, quế và thảo quả ra (có thể dùng rây để lọc lại nước dùng), cho phần nước dùng ngâm bắp bò trở lại vào nồi, sau đó châm thêm nước sôi vào đầy nồi và tiến hành ninh thêm 2 - 6 giờ tùy thuộc thời gian của bạn. Ninh càng lâu, chất ngọt từ xương sẽ càng giúp nước dùng ngon ngọt hơn. Sau khi ninh nước dùng xong, bạn sẽ tiến hành nêm nếm gia vị lại cho nước dùng hợp khẩu vị gia đình. Theo đó, với 4 lít nước dùng thì bạn hãy nêm thêm khoảng 3 - 4 thìa canh nước mắm, 1 thìa canh đường, 2 thìa cà phê bột canh.",
+            "Chuẩn bị rau ăn kèm và bánh phở: Phở Hà Nội sẽ thường được ăn cùng với hành lá, ngò gai, ngò rí, húng lủi, húng láng và hành tây. Tùy theo sở thích cá nhân và gia đình mà bạn hãy chuẩn bị rau gia vị cho phù hợp. Bạn sẽ cắt lát mỏng hành tây, các rau gia vị thì thái nhỏ là được. Bánh phở tươi bạn sẽ luộc trong nước sôi 1 - 2 phút, sau đó vớt ra rửa lại với nước lạnh cho sợi phở giữ được độ dai.",
+            "Thưởng thức: Bạn cho bánh phở ra tô, cho thêm một ít thịt bắp bò và vài lát thịt bò tươi vào, cho lên trên chút rau gia vị rồi múc nước dùng đang sôi chan từ từ vào tô phở cho thịt chín tái từ từ. Như vậy là bạn đã hoàn thành một tô phở Hà Nội thơm ngon rồi."
+        ]
+    },
+    "banh_beo": {
+        "name": "Bánh bèo nhân tép gạo",
+        "ingredients": [
+            "Tép gạo   400 gr",
+            "Bột gạo   400 gr",
+            "Hành tím băm   1 muỗng canh",
+            "Hành lá   5 nhánh",
+            "Ớt băm   1 muỗng cà phê",
+            "Dầu ăn   10 muỗng canh",
+            "Nước cốt chanh   2 muỗng canh",
+            "Nước mắm   2 muỗng canh",
+            "Muối ớt   1 muỗng cà phê",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Rửa và giã tép: Tép đồng sau khi mua về bạn rửa thật sạch và đem đi luộc với nước sôi trong khoảng 3 phút cho tép chín thì vớt ra để ráo nước. Sau đó bóc vỏ tép và giã nhuyễn. Bạn nhớ giữ lại phần nước luộc tép để làm nước chấm nhé.",
+            "Rang tép: Cho vào chảo 2 muỗng canh dầu ăn, đun nóng dầu và cho 1 muỗng canh hành tím vào phi thơm. Tiếp theo bạn cho tép đã giã nhuyễn vào xào nhanh với lửa vừa. Để tép thêm đậm đà bạn nêm vào thêm 1 muỗng cà phê muối ớt và 1/2 muỗng cà phê tiêu xay, xào cho tép khô nước thì tắt bếp.",
+            "Pha bột: Cho vào thau 400gr bột gạo thêm 1 lít nước, khuấy đều cho bột tan, thêm 1 muỗng canh dầu ăn, tiếp tục khuấy đến khi thấy hỗn hợp bột, nước và dầu đã hòa quyện vào nhau thì để bột nghỉ khoảng 1 tiếng.",
+            "Hấp bánh: Đun cho phần nước bên dưới xửng hấp sôi, lấy 2 muỗng canh dầu ăn cho vào chén riêng và quét dầu lên khuôn cho vào xửng hấp trong khoảng 5 phút cho khuôn bánh nóng lên. Khuấy bột đều thêm 1 lần nữa và cho vào khuôn bánh, bột bạn cho vào khoảng 2/3 khuôn bánh thôi nhé. Đậy nắp và hấp bánh trong khoảng 5 - 7 phút cho bánh chín thì lấy ra, cho vào nước lạnh, lưu ý để khuôn bánh nổi trên mặt nước, không để nước tràn vào khuôn bánh.",
+            "Làm nước chấm: Cho vào chảo 2 muỗng canh đường, 2 muỗng canh nước cốt chanh, 2 muỗng canh nước mắm, 1 chén (chén ăn cơm) nước luộc tép. Khuấy đều cho đường tan sau đó bạn đun sôi hỗn hợp nước chấm. Khi nước chấm sôi thì tắt bếp và cho thêm 1 muỗng cà phê ớt băm nếu thích nhé.",
+            "Hoàn thành: Hành lá bạn nhặt lá hư, bỏ rễ hành và cắt nhuyễn. Cho hành vào chén thêm 1/3 muỗng cà phê muối, 1/4 muỗng cà phê bột ngọt. Đun sôi khoảng 5 muỗng canh dầu ăn sau đó đổ vào chén hành lá đã chuẩn bị. Lấy bánh từ khuôn cho ra  dĩa, chang 1 muỗng cà phê mỡ hành, thêm 1 muỗng cà phê nhân tép lên trên là đã có ngay món bánh bèo nhân tép gạo thưởng thức rồi.",
+            "Thành phẩm: Chỉ với các thao tác cực kì đơn giản bạn đã có ngay món bánh bèo nhân tép gạo để thưởng thức rồi. Miếng bánh với mềm mịn với lớp bột gạo trắng tinh nhân tép ngọt thơm chấm cùng với nước chấm chua ngọt nữa thì ngon quên lối về."
+        ]
+    },
+    "banh_bot_loc": {
+        "name": "Bánh bột lọc nhân tôm thịt",
+        "ingredients": [
+            "Thịt ba rọi   200 gr",
+            "Tôm lột vỏ   200 gr",
+            "Bột năng   370 gr",
+            "Bột sắn dây   50 gr",
+            "Hành lá   100 gr",
+            "Nước sôi   270 ml",
+            "Muối   1/2 muỗng cà phê"
+        ],
+        "recipe": [
+            "Làm nhân bánh: Tôm rửa sạch, cắt đầu đuôi, lột sạch vỏ. Thịt ba chỉ cắt miếng nhỏ, mỏng vừa. Sau đó, ướp tôm thịt với 1/2 muỗng cà phê muối, 1 muỗng cà phê đường, 1/2 muỗng cà phê tiêu, 1 muỗng cà phê nước mắm, nêm nếm vừa ăn. Để chừng 30 phút đến 1 tiếng cho tôm thịt ngấm đều gia vị. Bắc chảo lên bếp, cho 2 muỗng cà phê đường vào rồi thắng ngả vàng nâu, cho tiếp 2 muỗng canh dầu ăn vào. Dầu nóng cho thịt vào xào hơi săn lại thì cho tôm vào xào chung. Vặn nhỏ lửa, rim đến khi nước cạn sệt lại thì tắt bếp.",
+            "Làm vỏ bánh bột lọc: Chuẩn bị thau hoặc tô lớn, cho 200gr bột năng, bột sắn dây cùng 1/2 muỗng cà phê muối vào trộn đều. Sau đó cho nước sôi vào, dùng muỗng khuấy đều. (Lượng nước quyết định độ dai hoặc mềm của bánh, nên tùy vào khẩu vị mà gia giảm nước cho phù hợp.) Hỗn hợp sau khi đã quấy đều thì cho vào tiếp 170gr bột năng còn lại. Vì bột rất nóng nên bạn hãy sử dụng bao tay cách nhiệt nhồi đều bột, hoặc đợi nguội một chút rồi nhồi cho thật kỹ. Nhồi khi bột còn nóng thì bột sẽ mịn dẻo hơn. Khi chưa gói nhân, bạn hãy bọc kín bột để tránh cho phần bột bị khô.",
+            "Gói bánh bột lọc: Lấy một cục bột nhỏ, cán mỏng vừa lòng bàn tay, cho nhân tôm thịt vào chính giữa rồi gấp đôi bột lại, dùng tay miết mép bột cho thật chặt để tránh bị lòi nhân khi luộc. Làm hết phần bột và nhân còn lại.",
+            "Luộc bánh bột lọc: Bắt nồi nước lên bếp ở lửa vừa, cho vào 1 muỗng canh dầu ăn cùng 1/2 muỗng cà phê muối. Chuẩn bị thau nước lạnh kế bên. Sau khi nước sôi cho thì cho bánh bột lọc vào, khi bánh bột lọc nổi lên là chín. Lập tức vớt bánh bột lọc ra cho vào thau nước lạnh. Đặt một chảo khác lên bếp, đun dầu thật sôi, cho cho hành lá xắt nhỏ vào đảo nhanh rồi tắt bếp. Lấy bánh bột lọc từ thau nước lạnh ra, bỏ vào rây cho ráo nước rồi cho vào phần mỡ hành vừa làm, đảo đều.",
+            "Pha nước chấm: Cách pha như sau: 250ml nước ấm + 50gr đường + 15gr nước mắm + 1/2 trái chanh vắt quậy tan hết, cho ớt tỏi băm vào sau cùng. Hoặc pha theo tỉ lệ 1 nước mắm, 1 đường và 3 nước lạnh. Nếu thích mặn hay nhạt hơn thì thêm giảm vừa khẩu vị.",
+            "Thành phẩm: Bày bánh bột lọc ra dĩa, rưới lên mặt bánh một ít mỡ hành, thêm ít hành phi sẽ thơm hơn. Ăn kèm với nước chấm, rất hấp dẫn và ngon miệng."
+        ]
+    },
+    "banh_can": {
+        "name": "Bánh căn Đà Nẵng",
+        "ingredients": [
+            "Tôm   200 gr",
+            "Trứng cút   10 quả",
+            "Bột gạo   200 gr",
+            "Bột năng   100 gr",
+            "Đu đủ   100 gr",
+            "Tỏi băm   2 muỗng canh",
+            "Hành lá   3 nhánh",
+            "Giấm   2 muỗng canh",
+            "Nước mắm   12 muỗng canh",
+            "Dầu ăn   100 ml",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Trộn bột: Bạn trộn 200gr bột gạo với 100gr bột năng vào một cái tô đựng. Cho thêm vào tô bột 1 muỗng cà phê bột nghệ, 1 muỗng cà phê hạt nêm, 1 muỗng cà phê muối, 1/2 muỗng cà phê tiêu. Kế đến đổ khoảng 450ml nước lọc vào tô, dùng đũa khuấy đều cho đến khi hỗn hợp bột tan ra hết. Cuối cùng để bột nghỉ khoảng 1 tiếng.",
+            "Sơ chế và ướp tôm: Tôm mua về để khử đi mùi tanh, sau khi lột bỏ đi phần đầu, vỏ, chân và chỉ tôm thì đem ngâm tôm trong nước muối loãng từ 2 - 3 phút rồi rửa lại bằng nước sạch và để ráo. Ướp tôm với 1 muỗng cà phê hạt nêm, 1 muỗng cà phê đường, 1 muỗng cà phê nước mắm, 1/2 muỗng cà phê tiêu, 1 muỗng canh tỏi băm, 1 muỗng canh đầu hành lá băm (hoặc thay bằng hành tím băm). Trộn đều và ướp trong vòng 30 phút cho tôm thấm gia vị.",
+            "Làm đồ chua ăn kèm: Để làm phần đồ chua ăn kèm, đầu tiên đu đủ bạn gọt vỏ, bào sơi. Kế đến cho khoảng 2 muỗng canh giấm, 2 muỗng canh đường vào tô đựng, khuấy đều cho đường tan ra. Sau đó bạn cho đu đủ đã bào sợi vào, trộn đều và ngâm khoảng 1 tiếng.",
+            "Làm nước chấm: Bạn cho lần lượt vào chén 10 muỗng canh nước mắm, 10 muỗng canh đường, 20 muỗng canh nước lọc, 1 muỗng canh nước cốt chanh, 1 muỗng canh tỏi băm, 1/2 muỗng canh ớt băm, khuấy đều cho các nguyên liệu tan ra.",
+            "Đổ bánh căn: Sử dụng chảo có các khuôn tròn nhỏ chuyên dùng cho các món bánh căn bánh khọt, bắc chảo lên bếp, đổ dầu ngập các ô trong chảo, đun nóng ở lửa nhỏ. Khi thấy dầu bắt đầu sôi, bạn đổ từ từ hỗn hợp bột bánh vào các ô, tránh để tràn bột ra ngoài các ô nhé. Tiếp theo cho đập vỡ trứng cút cho vào các ô bột, gắp theo khoảng 1 - 2 con tôm vào cùng. Đậy nắp lại và tiếp tục chiên ở lửa nhỏ trong vòng 2 phút. Sau đó mở nắp ra và chiên thêm khoảng 2 phút  đến khi thấy bánh vàng đều, tôm và trứng cút đã chín hết thì bạn gắp từng cái bánh dĩa (cót lót giấy thấm dầu) để cho ráo dầu.",
+            "Thành phẩm: Bánh căn nóng hồi, thơm lừng. Lớp vỏ giòn tan rôm rốp trong miệng, phần nhân với tôm tươi, ngọt thịt được nêm nếm đậm vị, trứng cút béo bùi. Đặc biệt chấm kèm bánh căn với nước mắm chua chua ngọt ngọt cùng đu đủ giòn, chua nhẹ làm cho món ăn không bị ngấy. Hãy cùng vào bếp để thử ngay món ăn này cho cuối tuần thêm thú vị nhé!"
+        ]
+    },
+    "banh_canh": {
+        "name": "Bánh canh bột lọc cá lóc",
+        "ingredients": [
+            "Cá lóc   500 gr",
+            "Bột lọc   400 gr",
+            "Nấm rơm   200 gr",
+            "Hành lá   1 ít",
+            "Hành tím   2 củ",
+            "Ớt   1 ít",
+            "Nước mắm   1 muỗng canh",
+            "Gia vị thông dụng   1 ít",
+            "Dầu ăn   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế cá lóc và các nguyên liệu: Cá lóc mua về rửa sạch, bỏ vảy, vây và mang cá sau đó chà xát thân cá bằng muối để khử mùi tanh. Nếu bạn thích ăn ruột cá lóc hãy để ruột lại, không cần phải bỏ đi. Cắt cá thành những khúc vừa ăn. Nấm rơm bạn dùng dao gọt sạch những chỗ bẩn, sau đó chẻ đôi những cây nấm lớn và ngâm với nước muối khoảng 15 phút sau đó vớt ra để ráo. Hành lá đem rửa sạch với nước và để ráo. Sau đó đem cắt nhỏ phần lá, phần đầu hành cắt sợi dài khoảng 1 ngón tay.",
+            "Ướp cá lóc: Cho cá vào tô ướp với 1 muỗng cà phê muối, 1 muỗng cà phê hạt nêm, 1 muỗng cà phê bột ngọt, 2 muỗng cà phê đường, 2 củ hành tím băm trộn đều lên và để khoảng 15 - 20 phút cho cá thấm gia vị.",
+            "Nhồi bột: Cho 400gr bột lọc vào tô, chia khoảng 100ml nước nóng có pha vào khoảng 1 muỗng canh dầu ăn ra nhiều phần và đổ lần lượt vào, mỗi lần đổ vào thì dùng tay và muỗng nhồi cho đến khi bột dính bết thành từng cục. Sau đó dùng tay nhồi khoảng 10 - 15 phút cho bột tạo thành khối dẻo mịn.",
+            "Xắt bột: Lấy từng phần bột nhỏ, áo nhẹ một lớp bột áo để bột không bị dính, vo tròn rồi ép dẹp độ dày khoảng 1/4 lóng tay rồi cắt thành sợi nhỏ vừa ăn, khi cắt sợi xong nhớ dùng tay tách nhẹ từng sợi bột tránh bột bị dính vào nhau. Nếu thời gian xắt bột lâu làm bột bị khô, bạn cứ cho thêm khoảng 1 - 2 muỗng canh nước nóng rồi nhồi bột cho bột dẻo lại.",
+            "Nấu nước dùng: Bắc chảo lên bếp cho vào 1 muỗng canh dầu ăn đun nóng, sau đó cho cá lóc đã ướp vào xào cho cá săn lại rồi cho khoảng 2 lít nước vào đun sôi 15 phút. Cho tiếp phần nấm rơm vào nấu thêm 10 phút thì cho đầu hành vào. Nêm vào nồi 2 muỗng canh đường, 1/2 muỗng canh muối, 1 muỗng canh hạt nêm, 1 muỗng canh nước mắm đợi sôi lại rồi nêm nếm cho vừa ăn và tắt bếp.",
+            "Luộc bột bánh canh: Múc 1 ít nước dùng ra nồi riêng và đun sôi, cho phần bánh canh đã xắt luộc khoảng 10 phút lửa vừa, thấy bánh trong, nổi lên mặt nước là bột chín.",
+            "Thành phẩm: Bánh canh dai mềm vừa phải cùng với nước dùng đậm đà, thơm ngon cùng cá lóc mềm thấm gia vị. Buổi sáng có một tô bánh canh cá lóc bột lọc để dùng cùng gia đình thì ngon biết bao nhiêu. Cùng thực hiện và thưởng thức nhé!"
+        ]
+    },
+    "banh_chung": {
+        "name": "Bánh chưng cốm",
+        "ingredients": [
+            "Gạo nếp   2 kg",
+            "Cốm dẹp   1 kg",
+            "Thịt ba chỉ   800 gr",
+            "Đậu xanh   800 gr",
+            "Dầu ăn   7 muỗng canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Ngâm nếp và đậu xanh: Nếp và đậu xanh bạn vo sạch với nước 3 - 4 lần rồi đổ nước ngập hơn mặt nếp và đậu 2 lóng tay, để yên và ngâm trong vòng 4 tiếng.",
+            "Chuẩn bị nhân bánh chưng: Nếp đã nở bạn chắt ráo nước, cho ra tô rồi thêm 1 muỗng cà phê muối, 1 muỗng cà phê dầu ăn vào và trộn đều. Tiếp theo bạn rửa sạch cốm rồi trộn với nếp. Đậu xanh ngâm nở, bạn vớt ra cho vào xửng rồi đem hấp chín. Sau đó tán nhuyễn rồi trộn đều với 1.5 muỗng cà phê muối, 3 muỗng cà phê dầu ăn và 1 muỗng cà phê tiêu. Thịt ba chỉ heo mua về, rửa sạch rồi cắt thành từng miếng dày khoảng 1 lóng tay và dài khoảng 5 - 7cm. Sau đó ướp thịt với 1 muỗng cà phê muối, 1 muỗng cà phê tiêu, 1 muỗng cà phê bột ngọt và 3 muỗng canh dầu ăn. Chia mỗi nguyễn liệu đã chuẩn bị làm 10 phần đều nhau cho 10 cái bánh. Trộn mỗi phần gạo nếp với 100gr cốm dẹp cho mỗi cái bánh.",
+            "Sơ chế lá và xếp nhân: Lá dong bạn rửa sạch rồi dùng khăn ấm lau sạch hai mặt lá, tiếp theo bạn rọc bỏ bớt phần sống lá cứng, già phía sau. Mỗi bánh bạn cần 3 chiếc lá dong. Bạn xếp lá theo thứ tự 1 lá dọc, 1 lá ngang rồi đến 1 lá dọc (mặt xanh đặt, lá dưới cùng sẽ đặt mặt xanh lá xuống dưới, hai lá còn lại thì đặt mặt xanh lá lên trên. Để xếp nhân bạn cần cho 1/2 chén (chén ăn cơm) nếp trộn cốm vào giữa lá, tiếp theo đặt lên trên lần lượt là đậu xanh và thịt ba chỉ. Sau đó bạn phủ lên trên thịt thêm 1 ít đậu xanh và nếp trộn cốm.",
+            "Gói bánh chưng: Để gói bánh, trước tiên bạn túm hai mép lá dong lại rồi gấp chặt, tiếp theo bạn bẻ vuông một phần đầu lá xuống, vuốt phẳng tạo nếp rồi gấp lên thật khít với nhân bên trong. Lúc này bạn dựng bánh đứng lên, dằn bánh cho phần bên trong chắc lại rồi gấp chặt phần lá của đầu còn lại. Sau đó bạn dùng dây lạt quấn bánh rồi xoắn lại và cột chặt. Mỗi bánh bạn cột 4 sợi dây dan xen nhau tạo hình bàn cờ là được.",
+            "Luộc bánh chưng và hoàn thành: Bạn chuẩn bị một nồi nước lớn, cho lá dong vào phủ đáy nồi rồi cho khoảng 4 - 5 chiếc bánh chưng cốm vào (tùy thuộc độ to của nồi), 10 phút đầu bạn luộc bánh chưng với lửa lớn rồi giảm xuống lửa nhỏ và đun khoảng từ 3 - 3.5 tiếng. Sau đó tắt bếp và để nguyên bánh trong nồi thêm 45 phút nữa là bánh chưng chín hoàn toàn. Sau đó bạn vớt bánh ra khỏi nồi, rửa sạch, lau khô rồi để bánh ở nơi thoáng khí, khô ráo. Chờ bánh nguội hẳn là có thể bóc ra thưởng thức.",
+            "Thành phẩm: Bánh chưng cốm bóc ra thơm lừng mùi cốm tươi mát, bánh có màu xanh tươi tự nhiên nhìn rất đẹp. Khi cắn vào thì cảm nhận được vị ngọt, dẻo của nếp cùng cốm, vị bùi bùi của đậu xanh và không thể thiếu lớp mỡ béo mọng nước của thịt ba chỉ. Với sự kết hợp tuyệt vời này sẽ vượt xa tưởng tượng của bạn đấy."
+        ]
+    },
+    "banh_cuon": {
+        "name": "Bánh cuốn",
+        "ingredients": [
+            "Thịt heo xay   300 gram",
+            "Hành tím   3 củ",
+            "Tỏi   1 củ",
+            "Ớt   1 trái",
+            "Nấm mèo   50 gram"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Hành tím và tỏi bạn lột vỏ, rửa sạch rồi băm nhỏ. Ớt băm nhuyễn. Nấm mèo ngâm nước ấm cho nở, rửa sạch, cắt gốc rồi băm nhuyễn. Giá, dưa leo, húng quế bạn rửa sạch, ngâm nước muối pha loãng 10 phút rồi rửa lại lần nữa, để ráo, sau đó dưa leo và húng quế bạn cắt sợi nhỏ.",
+            "Xào nhân bánh cuốn: Bạn đặt chảo lên bếp, đun nóng 1 muỗng canh dầu ăn rồi cho hành tím băm, tỏi băm (để lại khoảng 2 tép tỏi băm làm nước mắm) vào phi thơm. Tiếp theo trút thịt xay, nấm mèo vào xào. Trong quá trình xào thịt bạn nêm vào 1 muỗng canh đường, 2 muỗng canh hạt nêm, 2 muỗng cà phê tiêu xay, 1 muỗng cà phê dầu mè. Bạn xào đến khi thấy thịt chín, săn lại thì tắt bếp.",
+            "Làm nước mắm ăn bánh cuốn: Bạn cho vào chén: 1 muỗng canh đường + 2 muỗng canh nước lọc + 1 muỗng canh nước mắm, khuấy cho tan hết đường sau đó thêm vào 2 tép tỏi băm, 1 trái ớt băm khuấy đều.",
+            "Cuốn bánh tráng và hấp bánh tráng: Bạn đặt miếng bánh tráng lên mặt phẳng sạch, dùng cọ phết nước lên mặt bánh tráng cho ướt rồi múc nhân thịt xay lên trên, cuốn tròn lại sau đó dùng cọ quét dầu ăn lên cuốn bánh. Bạn làm lần lượt cho hết nguyên liệu. Đặt các cuốn bánh tráng vào đĩa rồi đặt vào nồi hấp. Bạn hấp bánh trong vòng 10 phút tính từ lúc nước sôi là bánh chín.",
+            "Thành phẩm: Bánh chín bạn lấy ra, cắt thành khúc vừa ăn. Bánh cuốn ăn kèm với các loại nem chả, dưa leo, rau thơm, giá và chấm nước mắm tỏi ớt để tăng thêm hương vị nhé."
+        ]
+    },
+    "banh_duc": {
+        "name": "Bánh đúc",
+        "ingredients": [
+            "Thịt heo xay   200 gr",
+            "Nấm mèo băm nhuyễn   56 gr",
+            "Đậu hũ chiên   50 gr",
+            "Bột gạo   80 gr",
+            "Bột nếp   80 gr",
+            "Bột sắn dây   80 gr",
+            "Nước   991 ml",
+            "Muối   1/2 muỗng cà phê",
+            "Hành lá   1 cây",
+            "Tiêu   1/4 muỗng cà phê",
+            "Hành tím   3 củ",
+            "Đường   1 muỗng canh",
+            "Nước mắm   1 muỗng canh",
+            "Nước cốt chanh   5 ml"
+        ],
+        "recipe": [
+            "Trộn bột bánh: Cho vào tô 80gr bột gạo, 80gr bột nếp, 80gr bột sắn dây, 1/4 muỗng cà phê muối rồi trộn đều. Tiếp theo, cho thêm 473ml nước lọc, 2 muỗng canh dầu dừa vào rồi khuấy đều cho bột tan.",
+            "Khuấy chín bột: Bắc nồi lên bếp, nấu sôi 473ml nước, sau đó cho từ từ hỗn hợp bột bánh vào, vừa cho vừa khuấy đều đến khi bột chín, đặc mịn.",
+            "Xào nhân bánh: Cắt lát khoảng 3 - 4 củ hành tím, phi chín vàng trên chảo. Sau đó lấy một ít ra chén, chừa lại 1 ít trong chảo. Tiếp tục cho vào 200gr thịt heo xay, 56gr nấm mèo, 1/4 muỗng cà phê tiêu, 1/4 muỗng cà phê muối rồi đảo đều đến khi thịt chín. Cuối cùng, cho vào hành lá cắt nhỏ, đảo đều một lần nữa rồi tắt bếp.",
+            "Làm nước mắm chấm: Cho vào chén 1 muỗng canh đường, 45ml nước , 1 muỗng canh nước mắm, 5ml nước cốt chanh. Khuấy đều cho gia vị hòa quyện vào nhau.",
+            "Thành phẩm: Cho bột ra chén, xếp lên mặt phần nhân thịt, đậu hũ chiên, hành phi, rưới thêm nước mắm, tương ớt và thưởng thức thôi! Món ăn có lớp bánh đúc dẻo mềm, ăn kèm cùng đậu hũ chiên, nhân thịt bùi vị, beo béo, cực kỳ thơm ngon và hấp dẫn."
+        ]
+    },
+    "banh_gio": {
+        "name": "Bánh giò",
+        "ingredients": [
+            "Thịt heo băm   200 gr",
+            "Bột gạo   320 gr",
+            "Bột năng   80 gr",
+            "Trứng cút   10 quả",
+            "Nấm hương   20 gr",
+            "Nấm mèo   30 gr",
+            "Nước dùng gà   1/2 lít",
+            "Hành tây   1 muỗng canh",
+            "Hành tím băm   200 gr",
+            "Lá chuối   10 miếng",
+            "Hành phi   1 muỗng canh",
+            "Tỏi băm   1 muỗng canh",
+            "Tiêu   1 muỗng canh",
+            "Hạt nêm   1 muỗng canh",
+            "Dầu ăn   1 muỗng canh",
+            "Muối   1.5 muỗng canh"
+        ],
+        "recipe": [
+            "Xào nhân bánh giò: Đặt 1 cái chảo lên bếp, cho vào chảo 1 ít dầu ăn, đợi dầu nóng rồi cho tiếp 1 muỗng canh tỏi, 1 muỗng canh hành tây, 1 muỗng canh hành tím băm vào xào thơm rồi cho 200gr thịt heo bằm vào. Khi thịt gần chín thì cho 20gr nấm hương, 30gr nấm mèo đã ngâm mềm cắt nhỏ và 1 muỗng canh hành phi vào. Nêm 1 muỗng canh muối, 1 muỗng canh hạt nêm, 1 muỗng canh tiêu vào đảo đều 5 phút rồi tắt bếp.",
+            "Nấu bột vỏ bánh giò: Cho 320gr bột gạo và 80gr bột năng, 1/2 muỗng canh muối trong 1 cái nồi lớn có 1,5 lít nước hầm xương rồi hòa đều. Sau đó bắt lên bếp khuấy liên tục trên lửa nhỏ, thêm 1 muỗng canh dầu ăn, khuấy liên tục đến khi bột đặc lại thì tắt bếp.",
+            "Sơ chế lá chuối: Lá chuối tươi bạn mua về trụng qua nước sôi cho sạch và dễ gói. Bạn trải 1 lớp màng bọc thực phẩm lên mặt bàn rồi đặt lá chuối lên trên và gấp lại thành hình phễu.",
+            "Gói bánh giò: Múc 1 muỗng bột cho vào trong phễu rồi dàn đều. Sau đó cho hỗn hợp nhân và trứng cút vào giữa và múc thêm 1 muỗng bột nữa phủ lên phía trên phần nhân, dàn đều. Bạn có thể nhúng muỗng vào chén dầu ăn để việc dàn đều bột bánh dễ dàng.",
+            "Hấp bánh giò: Gói chiếc bánh lại, cột dây cho bánh thêm chắc chắn rồi cho vào trong xửng, hấp khoảng 20 - 25 phút là bánh chín.",
+            "Thành phẩm: Bánh gói đều, khi bóc lá ra mặt bánh bóng mượt. Bánh chín trong, cùi bánh mềm, không nhão. Nhân bánh dậy mùi hạt tiêu, thịt không dai, vị vừa ăn."
+        ]
+    },
+    "banh_khot": {
+        "name": "Bánh khọt",
+        "ingredients": [
+            "Tôm   300 gr",
+            "Thịt nạc băm   100 gr",
+            "Mực   200 gr",
+            "Bột gạo   250 gr",
+            "Cơm   70 gr",
+            "Nước cốt dừa   200 ml",
+            "Bột chiên giòn   50 gr",
+            "Nấm mèo   10 gr",
+            "Hành tím   6 củ",
+            "Tỏi   2 củ",
+            "Hành lá   10 gr",
+            "Bột nghệ   10 gr",
+            "Nước dừa   200 ml",
+            "Bột năng   1 muỗng canh",
+            "Trứng gà   1 quả",
+            "Ớt hiểm   2 trái",
+            "Rau ăn kèm   100 gr"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Bắt đầu tiến hành sơ chế nguyên liệu, chúng ta băm nhỏ hành tím, tỏi. Cắt nhỏ phần hành lá, các bạn lưu ý để riêng phần đầu hành và lá. Rau đem rửa sạch đi và sau đó để ráo nước. Tôm các bạn bỏ phần đầu, vỏ, và chỉ đen. Nếu tôm quá to, bạn nên cắt nhỏ phần tôm đó ra, nên tìm mua tôm nhỏ cho vừa ăn. Sau khi sơ chế, bạn ướp tôm với nửa muỗng muối, 1/3 muỗng bột ngọt, 1 muỗng dầu hành và 1 muỗng hành tím. Tiếp theo, cho nấm mèo ngâm trong nước đến khi nấm nở mềm, rửa nấm lại bằng nước ấm, sau đó băm nhỏ phần nấm mèo này ra và cho vào chén đựng. Tiếp tục sơ chế 200gr mực, các bạn rửa mực bằng nước sạch, loại bỏ phần túi mực và phần xương sống của chúng, rửa lại một lần nữa. Sau đó, dùng dao cắt mực theo khoanh và cho vào chén đựng. Chúng ta tiến hành ướp thịt băm nhuyễn với 3/4 muỗng muối, 1/4 muỗng bột ngọt, 1 muỗng hành tím, nấm mèo, ít tiêu và sau đó trộn đều lên. Tiếp theo, cho 70gr cơm vào máy xay sinh tố với 1 ít nước. Sau khi xay xong, rây phần cơm cặn bỏ đi, chỉ giữ lại phần cơm mịn để làm bánh.",
+            "Pha bột bánh khọt: Để làm bột bánh khọt, chúng ta đổ 250gr bột gạo vào nồi lớn sau đó cho lần lượt cơm xay nhuyễn, 50gr bột chiên giòn, 500 ml nước, 10gr bột nghệ và 100 ml nước cốt dừa khuấy đều lên và cho bột bánh nghỉ trong 1 tiếng. Trước khi đổ bánh, nêm cho bột 1 muỗng đường, nửa muỗng bột ngọt và cho thêm 1 quả trứng gà vào bột. Khuấy đều lên, bột sẽ béo vị dễ ăn và khi nướng bánh, bánh sẽ giòn hơn.",
+            "Xào nhân: Bắc chảo lên bếp, cho vào chảo 1 muỗng canh dầu ăn, phi thơm tỏi, sau đó cho tôm vào. Còn phần thịt băm và mực, các bạn tiến hành xào tương tự như cách xào tôm.",
+            "Nấu nước cốt dừa: Cho 100 ml nước cốt dừa vào nồi đã chuẩn bị trước, tiếp tục cho thêm 1 muỗng cà phê bột năng, sau đó khuấy đều cho bột năng tan ra. Cho nồi chưa nước cốt dừa lên bếp, các bạn bật lửa nhỏ đun cho đến khi thấy nước dừa hơi nóng, sánh lại thì cho thêm vào một ít muối và tắt bếp đi.",
+            "Làm nước chấm cho bánh khọt: Đầu tiên bạn băm nhỏ 2 - 3 tép tỏi, cắt nhỏ 2 trái ớt hiểm. Tiếp theo, các bạn cho 100 ml nước nắm, 100gr đường vào 200 ml nước dừa. Sau đó, cho phần hỗn hợp này lên bếp bắt đầu đun và khuấy đều cho đến khi thấy tan hết đường rồi tắt bếp. Cuối cùng, cho 30 ml giấm ăn vào phần nước chấm, chờ cho nước chấm thật nguội rồi cho tỏi và ớt vào.",
+            "Đổ bánh khọt: Đầu tiên, bắt khuôn bánh khọt lên bếp, bật lửa lớn cho khuôn nóng lên. Sau đó, hạ nhỏ lửa và cho một ít dầu ăn vào từng khuôn tròn nhỏ. Tráng dầu dần đều lên thành khuôn bánh, để khi nướng bánh, bánh sẽ không bị dính. Đổ bột vào khuôn 3 lần: Lần thứ nhất: Sau khi dầu nóng, đổ bột vào khoản 1/3 khuôn. Lần thứ 2: Khi thấy bột chín, rưới ở rìa khuôn thêm 1 ít dầu ăn và sau đó cho thêm 1 ít bột vào. Lần thứ 3: Khi thấy lớp bột thứ 2 chín, bạn cho vào khuôn 1 ít nước cốt dừa, tiếp tục cho hành lá, tỏi băm và thêm 1 ít bột. Sau khi thêm bột bạn cho nhân vào bánh. Đun ở lửa nhỏ. Khi thấy đáy bánh chuyển vàng, dùng muỗng lật ngược bánh lại cho bột thật chín, sau đó vớt bánh ra. Tiếp tục lặp lại cho đến khi hết bột và nhân.",
+            "Trình bày và thưởng thức bánh: Bánh khọt sẽ ngon hơn khi ăn nóng. Sẽ ngon hơn nếu dùng bánh với 1 ít rau sống và nước mắm chua ngọt.",
+            "Thành phẩm: Bánh bên trong xốp mềm, phần vỏ bên ngoài giòn nhẹ, béo. Phần nhân đậm vị, ngọt. Nước nắm kèm chua, ngọt hài hòa, vị thơm béo từ nước dừa."
+        ]
+    },
+    "banh_mi": {
+        "name": "Bánh mì chấm pate",
+        "ingredients": [
+            "Trứng gà   2 quả",
+            "Hành tây   1/2 củ",
+            "Hành ngò   1 ít",
+            "Pate   1 hộp",
+            "Tiêu xay   1 ít",
+            "Tương ớt   1 ít",
+            "Nước tương   1 ít",
+            "Xúc xích   2 cây",
+            "Bánh mì   2 cái"
+        ],
+        "recipe": [
+            "Chế biến pate và các nguyên liệu ăn cùng bánh mì: Hành tây cắt múi cau. Đợi dầu nóng thì chiên xúc xích trước. Sau đó để xúc xích gọn vào một góc chảo. Tiếp tục đập 2 quả trứng cho vào để ốp la. Chỉ nên để trứng chín ở mức độ lòng đào. Sau đó là hành tây, đảo đều cho hành tây chín. Cuối cùng, cho pate vào và dằm nhuyễn ra. Rắc lên một ít hạt tiêu xay, hành ngò và tắt bếp.",
+            "Chuẩn bị bánh mì: Bánh mì khi mua về để lâu có thể không còn giòn nữa. Làm nóng bánh mì bằng cách nướng sơ bánh mì trên chảo hoặc cho vào lò vi sóng.",
+            "Thưởng thức: Cho một ít nước tương và tương ớt lên pate và trứng, xé nhỏ bánh mì rồi chấm và thưởng thức."
+        ]
+    },
+    "banh_pia": {
+        "name": "Bánh pía nhân sữa dừa",
+        "ingredients": [
+            "Dừa nạo   220 g",
+            "Sữa bột   20 g",
+            "Sữa đặc   100 ml",
+            "Nước cốt dừa   100 ml",
+            "Bột bánh dẻo   20 g",
+            "Vani   1 ml",
+            "Bột mì   150 g",
+            "Bột năng   6 g",
+            "Dầu ăn   50 ml",
+            "Đường   25 g",
+            "Trứng gà   1 quả",
+            "Dầu mè   1/3 thìa cà phê"
+        ],
+        "recipe": [
+            "Trộn hỗn hợp nhân sữa dừa: Bạn cho 220g dừa nạo vào tô trộn đều cùng với 20g sữa bột rồi cho 100ml sữa đặc vào trộn cùng cho đều. Bạn dùng màng bọc thực phẩm bọc kín tô, để hỗn hợp sữa dừa từ 45-60 phút để dừa nạo thấm sữa.",
+            "Sên nhân sữa dừa: Bạn cho 100ml nước cốt dừa vào chảo, bật lửa vừa đun đến khi thấy nước cốt dừa sôi nhẹ thì trút phần sữa dừa đã ướp ở trên vào. Hạ lửa nhỏ, đảo đều tay đến khi thấy dừa hơi khô lại nhưng vẫn còn ẩm thì tắt bếp. Bạn nhấc chảo nhân ra khỏi bếp, rây đều 20g bột bánh dẻo vào trộn đều. Tiếp theo bạn cho 1ml vani nước hoặc 1/2 ống vani bột vào chảo nhân, trộn đều cho thơm.",
+            "Làm bột ruột vỏ bánh: Bạn cho vào tô 60g bột mì trộn cùng 6g bột năng, tiếp theo cho 20ml dầu ăn vào trộn cùng đến khi dầu ăn quyện với bột tạo thành hỗn hợp nửa khô nửa ướt thì bạn đeo bao tay vào nhồi sơ cho bột mềm, mịn dẻo, sờ không dính tay là được.",
+            "Làm bột vỏ ngoài: Cho vào tô 35ml nước, 20ml dầu ăn, 25g đường, khuấy cho tan hỗn hợp. Tiếp teo chia 90g bột mì cho vào tô trộn đều thành nhiều lần, đến khi hết bột bạn sẽ được một khối bột hơi ướt. Bạn đeo bao tay vào nhào để bột được mềm, dẻo, mịn, không còn dính tay.",
+            "Pha màu in dấu: Bạn hòa màu đỏ thực phẩm vào một ít nước rồi đặt miếng khăn mỏng vào để khăn thấm đều nước màu. Điều này giúp con dấu in bánh khi đặt vào sẽ thấm đều màu, in lên mặt bánh chữ rõ nét, đẹp hơn.",
+            "Cán và chia bột: Phần bột ruột vỏ bánh bạn đặt lên mặt phẳng sạch nhào sơ lại, lăn bột thành hình cây dài rồi chia làm 5 phần đều nhau, vo tròn lại. Phần bột vỏ ngoài bạn cũng nhào sơ rồi chia làm 5 phần đều nhau, vo viên.",
+            "Tạo hình bánh: Bạn lấy một phần bột vỏ ngoài kéo và cuộn mép bột liên tục vào trong để bề mặt bột láng mịn. Đặt viên bột xuống mặt phẳng, dùng cây cán bột cán mỏng. Tiếp theo bạn đặt phần bột ruột vào giữa miếng bột vỏ, dùng miếng bột vỏ gói viên bột ruột vào trong, túm bột lại cho kín, không để hở. Bạn đặt phần láng mịn xuống mặt phẳng, dùng cây cán bột cán từ điểm giữa lên trên sau đó lại từ điểm giữa cán xuống dưới. Cán nhiều lần để bột mỏng thành hình bầu dục. Tiếp theo bạn cuộn bột lại, đặt bột nằm ngang, từ điểm giữa cán bột qua hai bên. Sau đó lại cuộn bột lại. Ấn dẹp cuộn bột, cán mỏng. Vo tròn viên nhân cỡ trái bóng bàn, đặt vào giữa miếng bột, gói kín rồi vê cho tròn đều. Bạn dùng con dấu đã thấm nước màu in lên mặt bánh, nhấn bánh hơi dẹp xuống rồi xoay tròn nhẹ tay, như vậy màu in đều rõ nét. Cuối cùng bạn đem bánh đi nướng.",
+            "Nướng bánh: Bật lò trước ở nhiệt độ 170 độ C trước 10 phút để lò ổn định nhiệt độ. Xếp bánh lên khay sao cho phần chữ in úp xuống dưới, bạn cho bánh vào lò nướng ở nhiệt độ 170 độ C trong vòng 15 phút. Đập vào chén 1 quả trứng gà, thêm 1/2 thìa cà phê nước, 1/3 thìa cà phê dầu mè, đánh cho tan trứng. Bánh sau khi nướng 15 phút bạn lấy bánh ra, đợi bánh nguội bớt sau đó bạn lật mặt chữ lên trên, phết một lớp mỏng đều trứng gà lên bánh. Đặt bánh trở lại vào lò, nướng ở nhiệt độ 170 độ C thêm 10 phút.",
+            "Thành phẩm: Bánh pía nhân sữa dừa có lớp vỏ nhiều lớp ngọt nhẹ cùng nhân dừa thơm béo vô cùng hấp dẫn. Bạn chờ bánh nguội và dùng kèm một chút trà nóng là ngon nhất nhé!"
+        ]
+    },
+    "banh_tet": {
+        "name": "Bánh tét trứng muối",
+        "ingredients": [
+            "Thịt heo ba chỉ   500 gr",
+            "Gạo nếp   2 kg",
+            "Đậu xanh cà vỏ   800 gr",
+            "Lòng đỏ trứng muối   20 cái",
+            "Rau ngót   20 gr",
+            "Hành tím   20 gr",
+            "Lá chuối gói bánh   20 gr",
+            "Dây lạt buộc bánh   10 gr"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Gạo nếp đãi sạch ngâm với nước lạnh 8 giờ để gạo mềm. Sau khi ngâm vo sạch, trộn đều với 1 muỗng cà phê muối để ráo nước. Đậu xanh cũng rửa sạch ngâm 4 giờ, sau đó vớt ra trộn với 1/2 muỗng cà phê muối, để ráo. Rau ngót các bạn rửa sạch, giã nhuyễn lọc lấy nước để tạo màu xanh cho bánh tét. Lá chuối rửa thật sạch, trụng qua nước sôi, lau khô bằng khăn sạch. Thịt ba chỉ cắt miếng dài khoảng 12cm, dày 2cm. Ướp thịt với 20gr hành tím băm, 1 muỗng canh tiêu xay, 2 muỗng canh hạt nêm, 1 muỗng cà phê muối, 2 muỗng canh đường. Thịt ướp khoảng 30 phút ta tiến hành gói bánh.",
+            "Gói bánh: Trước khi gói bạn trộn đều nước rau ngót vào gạo nếp để bánh sau khi hoàn thành có màu xanh đẹp mắt. Lá chuối xếp 2 lượt lá ngang, 2 lượt lá dọc đan xen nhau, bạn hãy xếp khéo sao cho lớp lá lớn nằm ở giữa nhé. Kích thước lá chuối khoảng 40x40cm. Xúc gạo nếp đổ vào, mỗi lần khoảng 250 gram, dàn đều nếp theo chiều dài, cho nhân đậu xanh vào giữa, thêm thịt, xếp lần lượt 5 cái lòng đỏ trứng muối vào cạnh miếng thịt, 1 lớp đậu xanh, cuối cùng là 1 lớp gạo nếp phủ kín phần nhân. Nắm 1 mép lá dựng lên, cuộn thật tròn, chặt tay. Dùng dây lạt buộc cố định lại. Tiếp đến, bạn bẻ gập lá lại, dựng bánh lên, gấp các mép lá vào sao cho gọn, buộc thêm vài lượt nữa cho chắc chắn.",
+            "Luộc bánh: Xếp bánh vào nồi, đổ nước sao cho ngập bánh. Đun lửa to luộc liên tục trong vòng 8 tiếng. Nếu bạn luộc bằng nồi áp suất thì chỉ cần luộc trong vòng 1,5 tiếng là bánh chín. Nên kiểm tra nồi bánh 1 tiếng 1 lần để tránh trường hợp bánh bị cạn nước. Khi thấy bánh cạn nước, bạn hãy thêm nước sôi vào nhé. Khi bánh đã chín, bạn vớt ra và để nguội.",
+            "Thành phẩm: Bánh tét trứng muối tự làm cực ngon, vỏ bánh mềm ngon, nếp chín tới không bị bở hay quá khô. Phần nhân bên trong mềm ngon bùi béo của trứng muối và thịt mỡ cực kỳ hấp dẫn đấy nhé!"
+        ]
+    },
+    "banh_trang_nuong": {
+        "name": "Bánh tráng nướng trứng cút mỡ hành",
+        "ingredients": [
+            "Bánh tráng   1 miếng",
+            "Trứng cút   3 quả",
+            "Xúc xích tiệt trùng   1 cây",
+            "Hành lá   2 nhánh",
+            "Hành tím   1 củ",
+            "Sa tế   1 muỗng canh",
+            "Tương ớt   1 ít",
+            "Tương cà   1 ít",
+            "Sốt mayonnaise   1 ít",
+            "Dầu ăn   5 muỗng canh"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Hành lá mua về bỏ rễ, bỏ các lá héo úa, rửa sạch sau đó thái nhỏ. Hành tím bóc vỏ, rửa với nước sạch sau đó thái lát mỏng. Xúc xích cắt miếng mỏng vừa ăn, nếu là xúc xích ăn liền thì có thể chế biến luôn, nếu là xúc xích sống thì bạn nên hấp, chiên hoặc nướng qua trước nhé!",
+            "Làm mỡ hành và hành phi: Bắc chảo lên bếp cho vào 2 muỗng canh dầu ăn, khi dầu ăn sôi thì cho hành lá đã thái nhỏ vào đảo đều khoảng 20 giây rồi cho mỡ hành ra chén. Tiếp tục đun nóng 3 muỗng canh dầu ăn vào chảo, sau đó cho phần hành tím vào phi cho đến khi vàng đều.",
+            "Làm bánh tráng nướng: Bắc chảo lên bếp và để lửa vừa, sau đó để miếng bánh tráng lên chảo. Sau đó trải đều phần mỡ hành lên mặt bánh tráng. Tiếp theo trải đều 1 muỗng canh sa tế lên bề mặt bánh tráng rồi đập trứng cút và tiếp tục trải đều lên mặt bánh. Khi trứng bắt đầu chín tới thì cho xúc xích, chà bông lên trên. Sau cùng rắc thêm một ít hành phi, tương ớt, tương cà, sốt mayonnaise và cho ra dĩa.",
+            "Thành phẩm: Thành quả là một chiếc bánh tráng nướng thơm ngon hấp dẫn. Món ăn vặt này có vỏ ngoài giòn rụm, bên trong béo ngậy, thơm lừng. Vậy là chỉ với những nguyên liệu đơn giản và một chiếc chảo chống dính là bạn có thể tự tay làm những chiếc bánh tráng nướng tại nhà vô cùng thơm ngon và hấp dẫn rồi!"
+        ]
+    },
+    "banh_xeo": {
+        "name": "Bánh xèo miền Nam",
+        "ingredients": [
+            "Bột gạo   200 g",
+            "Bột năng   50 g",
+            "Bột nghệ/Nước nghệ tươi   1/2 thìa cà phê",
+            "Muối   1/2 thìa cà phê",
+            "Nước dừa tươi/Nước lọc   400 ml",
+            "Hành lá   1 ít",
+            "Tôm tươi   200 g",
+            "Thịt ba chỉ   100 g",
+            "Giá   100 g",
+            "Hành tím   2 củ",
+            "Ớt đỏ   3 quả",
+            "Rau ăn kèm   500 g",
+            "Gia vị thông thường   1 ít"
+        ],
+        "recipe": [
+            "Chuẩn bị nguyên liệu: Đầu tiên, hãy sơ chế tất cả nguyên liệu làm bánh xèo miền Nam để quá trình chế biến dễ dàng hơn nhé:",
+            "Làm bột bánh: Trong một tô lớn, trộn đều bột gạo, bột năng, muối, và nghệ bột. Từ từ đổ nước dừa vào tô, khuấy đều cho đến khi bột trở thành một hỗn hợp mịn, không bị vón cục. Nếu không có nước dừa, bạn có thể dùng nước lọc thay thế. Cho thêm 1 thìa dầu ăn vào bột để bánh không bị dính khi chiên. Khuấy cho đến khi bột hòa quyện, sau đó để bột nghỉ trong khoảng 30 phút.",
+            "Làm nước mắm chấm: Pha nước mắm với đường, nước cốt chanh, tỏi băm nhuyễn và ớt (tùy thích). Điều chỉnh tỷ lệ sao cho vừa ăn, sao cho vị mặn, ngọt, chua, cay hài hòa.",
+            "Chiên bánh: Đặt chảo chống dính lên bếp, đun nóng với một chút dầu ăn. Khi chảo đã nóng, múc một muỗng bột đổ vào chảo, nghiêng chảo để bột dàn đều thành hình tròn mỏng. Để lửa vừa, cho một ít hành tím thái lát vào giữa bánh, sau đó xếp tôm, thịt và giá lên trên bề mặt bánh. Đậy nắp lại và chiên trong khoảng 3-4 phút cho đến khi bánh vàng giòn ở dưới, vỏ bánh có màu vàng ươm đẹp mắt. Khi bánh đã giòn và nhân chín, dùng xẻng cẩn thận gập đôi bánh lại, rồi gắp ra dĩa. Lặp lại các bước trên cho đến khi hết bột.",
+            "Trình bày và thưởng thức: Xếp bánh xèo ra dĩa, rắc một ít hành lá lên trên để trang trí. Ăn kèm với rau sống như xà lách, rau thơm, rau diếp cá và nước mắm chua ngọt đã pha sẵn."
+        ]
+    },
+    "bun_bo_hue": {
+        "name": "Bún bò Huế",
+        "ingredients": [
+            "Chân giò heo   1 kg",
+            "Nạm bò   500 gr",
+            "Bún sợi to   200 gr",
+            "Huyết bò hoặc heo   1 tô",
+            "Chả cua hay chả bò   200 gr",
+            "Dầu màu điều   3 muỗng canh",
+            "Sả   7 cây",
+            "Hành tây   2 củ",
+            "Tỏi   1 củ",
+            "Gừng   1 củ",
+            "Mắm ruốc   2 muỗng canh",
+            "Hành lá   1 ít",
+            "Giá đỗ   1 ít",
+            "Mùi tàu/húng quế   1 ít",
+            "Hoa chuối   1 ít",
+            "Chanh   1 trái"
+        ],
+        "recipe": [
+            "Sơ chế chân giò, nạm bò: Chân giò heo nếu thích nhiều thịt thì chọn chân sau, thích da và gân sần sật thì chọn chân trước, chặt thành những khoanh tròn, rửa sạch. Luộc chân giò qua nước sôi cho hết chất bẩn sau đó rửa lại bằng nước sạch. Nạm bò rửa sạch, luộc riêng cùng 1/2 củ gừng thái lát cho thơm. Ninh lửa nhỏ khoảng 2 tiếng, dùng đũa xiên thử miếng nạm, nếu xiên qua được là đạt yêu cầu. Đợi thịt nạm nguội thái miếng mỏng.",
+            "Sơ chế các nguyên liệu khác: Huyết bò hoặc heo có thể mua sẵn hoặc mua huyết về luộc chín, thái miếng vừa ăn. (Lưu ý mua huyết ở những địa chỉ uy tín để đảm bảo an toàn thực phẩm). Nếu không ăn huyết có thể bỏ qua. Chả cua nặn thành từng viên tròn nhỏ thả vào nồi nước luộc nạm, chả nổi lên là đã chín, bạn vớt ra để riêng. Có thể thay thế chả cua bằng chả bò, chả giò hoặc không cho chả cũng được. Với 4 cây sả băm nhỏ, còn lại cắt khúc, đập dập. Hành tây chia 2 phần, một nữa cắt đôi, nữa còn lại thái mỏng. Hành lá, mùi tàu, húng quế rửa sạch thái nhỏ. Các loại rau ăn kèm rửa sạch, để ráo nước.",
+            "Nấu bún bò Huế: Hòa 2 muỗng canh mắm ruốc với 100 ml nước lạnh. Phi 4 cây sả băm cho thơm cùng 2 thìa dầu ăn, lấy bớt sả ra, cho 3 muỗng canh dầu màu điều vào. Băm nhuyễn 1 củ hành, 1 củ tỏi kèm 2 trái ớt rồi cho vào chảo phi vàng thì tắt bếp. Chân giò heo đã sơ chế bạn cho lên bếp ninh lửa nhỏ cùng 1 củ hành tây cắt đôi và 3 cây sả đập dập cho nước dùng thơm ngọt, ra hết chất trong xương. (Lưu ý thỉnh thoảng hớt bọt nồi nước dùng để nước được trong). Lấy phần trên của nước mắm ruốc cho vào nồi, bỏ phần cặn đi. Cho 2 muỗng canh đường, 2 muỗng canh hạt nêm, 1 muỗng canh muối vào, nêm nếm cho vừa miệng. Thêm chén ớt sa tế đã làm ở trên vào.",
+            "Hoàn thành: Bạn trụng bún qua nước sôi, để ráo và trút ra tô. Thêm thịt nạm, móng giò, chả cua, huyết, mùi tàu, hành lá thái nhỏ, một chút hành tây thái mỏng rồi chan nước dùng. Bún bò Huế ăn kèm giá đỗ, hoa chuối, húng quế, ớt chưng thì tuyệt ngon bạn nhé.",
+            "Thành phẩm: Buổi sáng mát mẻ hay se lạnh làm một tô bún bò Huế thơm ngon đậm đà cùng cả nhà thì còn gì tuyệt vời bằng. Vị ngọt thơm của nước, béo ngậy của móng giò, giòn giòn mềm ngon của thịt nạm, chả cua thơm lừng cùng một chút cay của ớt và chua chua của chanh. Chỉ nghĩ tới thôi đã cảm thấy mê man và thèm ngay một tô bún bò Huế."
+        ]
+    },
+    "bun_dau_mam_tom": {
+        "name": "Bún đậu mắm tôm",
+        "ingredients": [
+            "Bún lá   1 ít",
+            "Đậu hũ   1 kg",
+            "Phèo non   600 gr",
+            "Gan   200 gr",
+            "Huyết   100 gr",
+            "Dạ dày   300 gr",
+            "Lưỡi heo   1 cái",
+            "Thịt heo   500 gr",
+            "Thịt heo xay   300 gr",
+            "Khoai tây   1 củ",
+            "Nấm mèo   500 gr",
+            "Ớt   2 trái",
+            "Dưa leo   3 quả",
+            "Chanh   2 quả",
+            "Rau ăn kèm   1 ít",
+            "Hành tím   4 củ",
+            "Tỏi   4 tép",
+            "Gừng   1 củ",
+            "Bánh tráng rế   15 cái",
+            "Mắm tôm   500 gr",
+            "Giấm   100 ml",
+            "Dầu ăn   500 ml",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế thịt, lưỡi và bộ lòng heo: Gan, phèo non, dạ dày heo sau khi mua về thì rửa thật sạch với nhiều lần nước. Để khử mùi hôi thì bạn bóp chúng với giấm, chanh, muối và rửa lại với nước thêm nhiều lần cho sạch hoàn toàn. Còn lưỡi heo thì cũng rửa sạch, sau đó chần qua nước sôi rồi cạo sạch phần màng trắng bọc quanh lưỡi heo xong xả lại với nước lạnh cho sạch hẳn. Để khử mùi hôi của thịt heo thì bạn chà sạch với muối, để khoảng 5 phút rồi rửa sạch.",
+            "Luộc thịt, lưỡi và bộ lòng heo: Sau đó khi đã sơ chế xong, bạn lần lượt cho phần gan, dạ dày, phèo non vào nồi để luộc, tiếp tục cho thêm 1 thìa cà phê muối và 1 nhánh gừng đập dập vào để khử mùi hôi. Sau khi gan, dạ dày, phèo non chín thì vớt ra để ráo. Ở một nồi khác thì bạn cho thịt và lưỡi vào luộc với lửa vừa khoảng 30 - 40 phút, đến khi thịt, lưỡi đã chín thì vớt ra, lúc này cho phần huyết vào luộc sơ qua.",
+            "Chuẩn bị các nguyên liệu khác: Đậu hũ bạn cắt thành hình khối vuông nhỏ rồi cho vào chảo chiên với 150ml dầu ăn đến khi vàng giòn đều các mặt. Các loại rau ăn kèm như tía tô, húng quế, diếp cá,...thì lặt bỏ phần lá hư, gốc ngọn, rửa sạch rồi cho vào mâm. Dưa leo rửa sạch, cắt lát mỏng. Gọt bỏ vỏ của 1 củ khoai tây rồi băm nhuyễn. Nấm mèo ngâm nước cho nở rồi cắt gốc, rửa sạch xong băm nhỏ. Tỏi và hành tìm thì lột bỏ vỏ, ớt bỏ cuống, tất cả đem rửa sạch và băm nhỏ.",
+            "Làm ram thịt chiên: Để làm ram chiên giòn, bạn cho vào chén 300gr thịt heo xay cùng khoai tây, nấm mèo, 1/2 phần tỏi băm và hành tím băm nhuyễn, ướp cùng với 1 muỗng cà phê hạt nêm, 1 muỗng cà phê tiêu xay. Bận trộn đều và để ướp trong 15 phút. Sau đó, bạn cho khoảng 1/2 muỗng canh nhân thịt lên bánh tráng rế, cẩn thận gấp các mép rồi cuộn tròn lại. Bạn cho vào chảo 350ml dầu ăn, đun cho dầu sôi lăn tăn thì cho từng cuộn ram vào rồi chiên giòn.",
+            "Pha mắm tôm: Để pha mắm tôm thì bạn lần lượt cho 1 ít đường đường, 1 ít bột ngọt, 1/2 phần tỏi băm còn lại và ớt trái băm nhỏ vào trộn đều. Phần nêm đường và bột ngọt có thể thêm vào tùy khẩu vị của gia đình bạn nhé! Sau đó vắt chanh hoặc tắc vào đánh đều đến khi mắm tôm nổi một lớp bọt trắng lên là được.",
+            "Hoàn thành: Thịt luộc thì bạn thái miếng mỏng. Lưỡi, gan, phèo non, bao tử heo và huyết thì cắt thành miếng dày vừa ăn. Chuẩn bị một cái mẹt hoặc khay lớn, xếp một lớp lá chuối lên rồi lần lượt xếp bún lá, lòng heo, lưỡi heo, huyết, đậu hũ chiên, thịt luộc và ram thịt lên trên. Tiếp đó cho chén mắm tôm thơm lừng vào giữa mẹt rồi đặt thêm một ít rau thơm và ăn leo ăn kèm nữa là hoàn thành.",
+            "Thành phẩm: Bún đậu mắm tôm với màu sắc bắt mắt, kết hợp hài hòa nhiều loại nguyên liệu \"đầy ụ\" tạo cảm giác tròn đầy. Mẹt bún đậu tuy dân dã đơn giản nhưng lại mang đến cho bạn một món ăn vô cùng hấp dẫn, thơm ngon chuẩn vị như ngoài hàng lại giúp cả nhà thêm sự gắn kết khi cùng nhau quây quần thưởng thức một món ăn ngon mang đậm nét ẩm thực Việt Nam."
+        ]
+    },
+    "bun_mam": {
+        "name": "Bún mắm",
+        "ingredients": [
+            "Heo quay   200 gr",
+            "Cá diêu hồng   1 con",
+            "Chả cá thác lác   200 gr",
+            "Tôm   400 gr",
+            "Mực   300 gr",
+            "Mắm cá sặc   300 gr",
+            "Cà tím   2 trái",
+            "Thơm   1/2 trái",
+            "Ớt   3 trái",
+            "Hành tím   2 củ",
+            "Sả   3 tép",
+            "Ớt sừng   5 trái",
+            "Hành lá   3 nhánh",
+            "Hẹ   20 gr",
+            "Rau ăn kèm   1 ít",
+            "Bún tươi   500 gr",
+            "Nước mắm   1/2 muỗng cà phê",
+            "Dầu ăn   7 muỗng canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Sả lặt bỏ phần lá úa và gốc rễ, rửa sạch, lấy 1 tép sả ra băm nhuyễn. Hành tím lột bỏ vỏ, rửa sạch, một củ thì bạn cắt làm đôi, còn củ còn lại thì băm nhuyễn. Hành lá cắt bỏ lá úa vàng và rễ, rửa sạch, cắt phần đầu hành để riêng, còn lá hành thì cắt nhỏ. Ớt sừng rửa sạch, dùng dao rạch đôi theo chiều dọc rồi cẩn thận móc bỏ phần hạt ớt đi. Còn ớt trái thì rửa sạch rồi băm nhuyễn. Thơm bạn gọt bỏ phần vỏ và mắt thơm, rửa sạch rồi cắt khúc. Cà tím rửa sạch rồi cắt khúc vừa ăn. Cá diêu hồng bạn rửa sạch, loại vỏ phần ruột cá bên trong, phần vẩy với vây cá. Sau đó bạn cắt cá làm 3 khúc, khúc đầu, khúc đuôi bạn cất để thực hiện món ăn khác, với món bún mắm, bạn chỉ dùng khúc giữa thôi nhé! Tiếp tục dùng dao tách bỏ phần xương cá rồi rửa thật sạch với nước. Cắt cá thành từng khúc vừa ăn. Còn với mực thì bạn lột bỏ phần da rồi rửa thật sạch lại với nước. Heo quay thì bạn cắt thành miếng vừa ăn, dày khoảng 1/2 lóng tay.",
+            "Nấu mắm cá: Bắc nồi lên bếp, cho vào khoảng 500ml nước. Sau đó, cho 300gr mắm cá sặc vào trong nước, dùng muỗng dằm nhuyễn phần xác cá và nấu đến khi phần xác cá rục. Để mắm cá thơm hơn, bạn cho thêm 1 tép sả, 1 củ hành tím",
+            "Làm chả ớt: Cho hành lá vào chén đựng chả cá, trộn đều để hành hòa quyện vào chả cá. Tiếp đến, cho tất cả chả cá vào một túi kính, nêm vào 1 muỗng cà phê hạt nêm, 1/3 muỗng cà phê bột ngọt, 1/2 muỗng cà phê đường, 1/2 muỗng cà phê tiêu và 1 muỗng cà phê dầu ăn. Sau đó, dùng tay nhào thật kỹ phần chả cá để gia vị thấm đều. Cuối cùng, nêm thêm 1/2 muỗng cà phê nước mắm rồi trộn đều lần nữa. Dùng muỗng múc chả cá nhồi vào từng quả ớt đã chuẩn bị. Tương tự, bạn làm đến hết phần chả cá và ớt đã chuẩn bị. Sau khi đã nhồi xong, bạn bắc một cái chảo lên bếp, cho vào khoảng 3 muỗng canh dầu ăn, đợi dầu nóng thì gắp phần chả ớt vào và chiên vàng đều 2 mặt thì gắp ra đĩa để ráo dầu.",
+            "Luộc tôm, mực, cá: Bắc một nồi nước lên bếp, cho vào 1/2 muỗng cà phê muối, 1/3 muỗng cà phê bột ngọt và đun sôi. Khi nước sôi thì bạn cho mực vào luộc khoảng 2 phút. Mực chín thì bạn cho tiếp tôm vào luộc trong khoảng 5 phút nữa. Sau 5 phút, tôm và mực đều chín rồi thì bạn vớt ra tô cho ráo nước. Cuối cùng, cho cá diêu hồng vào luộc khoảng 4 phút, rồi cẩn thận vớt cá ra.",
+            "Nấu nước dùng: Bắc nồi lên bếp, cho vào nồi khoảng 2 lít nước. Sau 30 phút nấu mắm cá thì phần cá đã rục mềm, bạn đổ mắm cá qua rây để loại bỏ phần xác cá, phần mắm cá đã lọc thì cho vào nấu nước dùng, cho tất cả thơm đã cắt khúc vào, đun khoảng 1 giờ. Tiếp đến, đổ phần nước lúc nãy dùng để luộc tôm, mực, cá qua rây vào. Bắc một cái chảo lên bếp, cho vào khoảng 3 muỗng canh dầu ăn, đợi dầu sôi thì cho phần sả đã băm nhỏ vào xào khoảng 1 phút thì cho tiếp ớt đã băm nhuyễn vào, xào thêm 3 phút nữa thì cho hỗn hợp này vào nồi nước dùng. Nêm vào 1 muỗng canh đường, 1 muỗng canh hạt nêm và 1/2 muỗng cà phê bột ngọt. Cho tất cả phần cà tím vào, đun thêm khoảng 10 phút nữa, nêm nếm lần cuối cho hợp khẩu vị bạn rồi tắt bếp, thêm một xíu hẹ vào để nước dùng thơm hơn.",
+            "Hoàn thành: Để hoàn thành món bún mắm này, bạn cho một lượng bún đủ ăn vào tô, xếp các loại nguyên liệu gồm tôm, mực, cá, múc nước dùng chang vào. Xếp lên trên một ít thịt heo quay và chả ớt, cho xíu rau đắng lên trên để món ăn thêm hấp dẫn. Trộn đều và thưởng thức nhé!",
+            "Thành phẩm: Bún mắm sau khi hoàn thành có phần nước dùng trong veo, đẹp mắt. Nước dùng đậm đà, ngọt thanh, kết hợp vị ngọt của nhiều loại nguyên liệu mang đến cho bạn cảm giác vô cùng tròn vị, ngon miệng. Nguyên liệu tươi ngon, đậm đà, chấm cùng nước me làm dậy mùi ngon hơn. Món ăn chắc chắn sẽ khiến mọi người gia đình bạn thích mê."
+        ]
+    },
+    "bun_rieu": {
+        "name": "Bún riêu cua",
+        "ingredients": [
+            "Thịt cua xay   600 gr",
+            "Sườn non   500 gr",
+            "Tôm khô   100 gr",
+            "Bún sợi to   600 gr",
+            "Cà chua   3 trái",
+            "Hành tím   5 củ",
+            "Rau muống   200 gr",
+            "Lá tía tô   100 gr",
+            "Chanh   1 quả",
+            "Lá chuối   1 lá",
+            "Tiêu   1/2 thìa cà phê",
+            "Nước mắm   1/2 thìa canh",
+            "Giấy bạc   1 lá",
+            "Mắm tôm   1 thìa canh",
+            "Bột canh   1 thìa cà phê",
+            "Giấm gạo   3 thìa canh",
+            "Nước mắm   3 thìa canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế sườn non: Sườn mua về rửa với nước muối loãng sau đó chặt khúc vừa ăn khoảng 2 - 3 lóng tay. Luộc chín sườn với nước sôi cùng 100gr tôm khô và 3 củ hành tím nướng. Khi sườn chín thì vớt ra.",
+            "Sơ chế các nguyên liệu khác: Cà chua mua về bạn rửa sạch, để ráo sau đó cắt mui cau vừa ăn. Lá chuối bạn mang đi rửa sạch rồi lau khô. Sau đó mang đi hơ lửa cho mềm. Cho mắm tôm vào lá chuối đã được hơ mềm rồi gói lại. Tiếp theo bạn gói giấy bạc xung quanh lá chuối đã có mắm tôm và nướng khoảng 5 phút cho mắm tôm cô đặc lại. Cuối cùng là cho mắm tôm ra tô hòa cùng 2 chén nước lọc.",
+            "Làm nước cua: Gạch cua bạn cho ra chén và trộn cùng 1/2 thìa canh giấm gạo. Thịt cua xay hoặc giã nhuyễn rồi hòa cùng 1.5 lít nước sau đó mang lọc qua rây.",
+            "Xào cà chua: Cho 2 thìa canh mỡ nước vào chảo đã đun nóng, khi mỡ sôi thì cho 1 ít hành tím băm vào xào đến khi dậy mùi thơm. Tiếp theo bạn cho cà chua đã cắt múi cau vào xào cùng 1 thìa cà phê đường, 1 thìa cà phê muối rồi đảo đều. Cho phần gạch cua vào xào chung khoảng 5 phút rồi tắt bếp.",
+            "Nấu nước dùng: Bạn sử dụng nồi nước dùng sau khi đã vớt thịt sườn và cho vào đó 1.5 lít nước lọc cua, 2 chén nước mắm tôm rồi khuấy đều. Khi riêu cua nổi lên mặt nước, bạn vớt ra và ép chặt hết nước rồi cho ra tô. Tiếp theo bạn cho cà chua đã xào cùng gạch cua vào cùng 1 thìa cà phê bột canh, 1 thìa cà phê bột ngọt, 2 thìa canh giấm gạo, 2 thìa canh nước mắm và 1/2 thìa canh đường rồi khuấy đều. Nấu đến khi nước sôi thì tắt bếp.",
+            "Hoàn thành: Sườn sau khi được vớt ra bạn nêm vào 1/2 thìa cà phê tiêu, 1/2 thìa cà phê bột ngọt, 1 thìa canh nước mắm rồi trộn đều. Bạn cho 1 ít muối vào nồi nước sôi rồi cho rau muống đã rửa sạch, cắt khúc vào trụng sơ rồi vớt ra để ráo. Vậy là món canh bún riêu cua đã hoàn thành rồi đây. Cho ngay bún ra tô, sau đó chan nước dùng vào cùng thịt sườn đã ướp, riêu cua và rau đã trụng lên trên. Ăn cùng rau tía tô, chanh và ớt tùy khẩu vị của bạn nhé!",
+            "Thành phẩm: Canh bún riêu cua sườn thơm ngon với nước dùng ngọt thanh thơm mùi cua, vị chua nhẹ và mang hương thơm mắm tôm đặc trưng. Sườn non ngọt mềm vừa ăn kết hợp cùng rau muống luộc giòn ngon làm cho canh búm thêm ngon. Hãy thưởng thức món canh bún riêu cua với ít nước me và mắm tôm nữa để cho món ăn thêm tròn vị."
+        ]
+    },
+    "bun_thit_nuong": {
+        "name": "Bún thịt nướng",
+        "ingredients": [
+            "Thịt heo   1 kg",
+            "Bún tươi   1 kg",
+            "Rau sống   100 gr",
+            "Mật ong   2 muỗng canh",
+            "Nước tương   1 muỗng canh",
+            "Nước mắm   1/2 muỗng canh",
+            "Nước màu dừa   1 muỗng cà phê",
+            "Dầu màu điều   1 muỗng canh",
+            "Dầu hào   1/2 muỗng canh",
+            "Bột ngũ vị hương   1/4 muỗng cà phê",
+            "Bột hành   1 muỗng canh",
+            "Bột tỏi   1 muỗng canh",
+            "Dầu ăn   4 muỗng canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế và ướp thịt heo: Trước tiên, với 1kg thịt heo mua về bạn lấy ít muối chà xát lên toàn bộ bề mặt thịt, rồi đem rửa lại 1 - 2 lần với nước sạch, để ráo, dùng dao cắt thành các lát mỏng khoảng 1/2 lóng tay là được. Bạn cho phần thịt heo đã cắt ra thau tiến hành ướp cùng 1/2 muỗng cà phê tiêu xay, 1/2 muỗng cà phê bột ngọt, 1/4 muỗng cà phê bột ngũ vị hương, 2 muỗng canh hạt nêm và 1/2 muỗng canh dầu hào. Kế đến, bạn tiếp tục cho 1/2 muỗng canh nước mắm, 1 muỗng canh nước tương, 2 muỗng canh mật ong, 1 muỗng cà phê nước màu dừa, 1 muỗng canh dầu màu điều, 4 muỗng canh dầu ăn, 1 muỗng canh bột tỏi và 1 muỗng canh bột hành vào. Sau đó, dùng muỗng trộn đều rồi để cho thịt heo được thấm đều gia vị trong vòng 8 - 12 tiếng ở ngăn mát tủ lạnh. Cuối cùng, với rau sống bạn nhặt bỏ các lá dập úng, héo úa đi chỉ giữ lại lá non, đồng thời đem ngâm cùng nước muối pha loãng từ 3 - 5 phút, rồi đem rửa lại 1 - 2 lần với nước sạch, để ráo.",
+            "Nướng thịt heo: Chuẩn bị nguyên liệu xong, trước hết bạn cần làm nóng nồi nướng thủy tinh ở nhiệt độ 200 độ C trong vòng 10 - 15 phút. Kế đến, bạn từ từ cho phần thịt heo đã ướp vào, tiến hành nướng ở nhiệt độ 230 độ C khoảng 7 phút. Sau đó, bạn trở qua mặt còn lại, tiếp tục nướng thêm 5 phút. Đến khi thấy thịt vàng đều cả 2 mặt thì bạn tắt nồi, cho thịt heo ra dĩa rồi dùng dao cắt thành từng khúc vừa ăn.",
+            "Thành phẩm: Cuối cùng, bạn lấy tô rồi lần lượt cho 1 ít bún tươi, rau sống, thịt heo vừa nướng và nước mắm ăn kèm vào là thưởng thức thôi nào! Bún thịt nướng quả đúng là món ăn thật tuyệt vời các bạn nhỉ? Bên cạnh từng sợi bún mềm mềm thì còn có thịt heo đậm vị được nướng vàng giòn cực kì hấp dẫn. Đã thế, làm sao bỏ qua rau sống giúp giải ngấy được cơ chứ!"
+        ]
+    },
+    "ca_kho_to": {
+        "name": "Cá kho tộ miền Tây",
+        "ingredients": [
+            "Cá basa   800 gr",
+            "Hành lá   3 nhánh",
+            "Hành tím   3 củ",
+            "Ớt   5 trái",
+            "Tỏi   7 tép",
+            "Dừa nạo   1 trái",
+            "Nước màu đường   2 muỗng cà phê",
+            "Dầu ăn   1 ít",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Cá basa sau khi cạo sạch nhớt và loại bỏ nội tạng, mang cá thì bạn sẽ rửa sạch rồi cắt cá thành các khúc dày 1.5cm. Tiếp đến, bạn cho cá ra thau, cho thêm 1 muỗng canh muối rồi bóp đều để làm sạch cá. Bạn mang cá đi rửa sạch lại một lần nữa, loại bỏ hết các tơ máu trong bụng và đường chỉ trong thịt cá rồi cho các khứa cá ra rổ để cho ráo nước. Hành tím và tỏi thì bạn hãy thái lát rồi băm nhỏ. Hành lá sau khi rửa sạch thì bạn dùng mặt dao để đập dập phần đầu hành, sau đó cắt nhỏ. Ớt trái bạn cắt lát chéo.",
+            "Ướp cá: Bạn sẽ ướp cá với 2 muỗng canh nước mắm, 1 muỗng cà phê muối, 1 muỗng cà phê hạt nêm, 2 muỗng cà phê đường, 1/2 muỗng cà phê bột ngọt, 1/2 muỗng canh hành tím băm, 1/2 muỗng canh tỏi băm và 2 muỗng cà phê nước màu đường. Bạn trộn đều cho thịt cá áo đều gia vị rồi để ướp trong 15 - 20 phút.",
+            "Kho cá: Trước tiên, bạn sẽ bắc chảo lên bếp, cho vào chảo khoảng 2.5 muỗng canh dầu ăn. Cho tiếp 1/2 muỗng canh hành tím băm, 1/2 muỗng canh tỏi băm và phần đầu hành lá băm vào, phi thơm. Tiếp đến, bạn cho các khứa cá đã ướp thấm vị vào, áp chảo cho săn đều hết các mặt cá thì vớt ra, xếp vào nồi đất. Bạn cho luôn phần dầu và hành tỏi phi dùng để áp chảo cá vào nồi, cho luôn phần nước ướp vào. Sau đó, bạn cho thêm 1 muỗng canh tương ớt vào nồi cá rồi cho nước dừa vào ngập qua mặt khứa cá. Nếu nước dừa không đủ thì bạn hãy châm thêm nước lọc nhé. Bạn đun ở lửa nhỏ cho đến khi nước kho còn xăm xắp mặt cá thì hãy nêm nếm lại để gia giảm gia vị theo khẩu vị gia đình. Sau đó, bạn cho ớt lát vào, kho thêm 20 - 25 phút nữa cho cá chín. Sau cùng, bạn rắc hành lá và tiêu xay vào, tăng mức lửa lớn cho cá sôi bùng thêm 1 - 2 phút thì tắt bếp.",
+            "Thành phẩm: Cá kho tộ miền tây kho theo cách này thì thịt cá sẽ không hề bị tanh, nước kho lại có độ sánh, nâu vàng đẹp mắt. Khi ăn, bạn sẽ thấy thịt cá mềm thơm, nước kho mặn ngọt đậm là và cay nồng nơi đầu lưỡi. Món này thích hợp nhất là ăn cùng với cơm nóng, kết hợp với món canh chua hay dĩa rau luộc chấm nước kho là ngon hết ý."
+        ]
+    },
+    "canh_chua": {
+        "name": "Canh chua",
+        "ingredients": [
+            "Cá chình   500 gr",
+            "Cà chua   2 trái",
+            "Dứa   1/2 trái",
+            "Khế chua   2 trái",
+            "Gia vị   1 ít",
+            "Rau nấu canh chua   1 ít",
+            "Lá giang   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế cá chình: Nên mua cá chình đã làm sẵn. Sau khi mua cá về, rửa lại thật sạch với nước lạnh, nhất là đường máu ở cột sống, đánh vẩy lại lần nữa để đảm bảo không bị sót. Cắt cá thành nhiều khúc vừa ăn. Rửa cá với nước chanh pha muối để loại bỏ tối đa mùi tanh cũng như độ nhớt. Để cá ráo nước.",
+            "Sơ chế những nguyên liệu khác: Cà chua cắt múi cau, thơm cắt lát hình tam giác. Các loại rau gia vị thì cắt nhỏ hoặc cắt khúc tuỳ thích. Lá giang rửa sạch, để ráo nước.",
+            "Xào cá: Đầu tiên, cho cà chua và thơm vào xào khoảng 30 giây. Sau đó, cho cá chình vào xào chung. Vì dùng nhồi chống dính nên cá sẽ không bị dính và nát khi xào. Nêm nếm gia vị rồi xào thêm khoảng 30 giây nữa cho cá săn lại và thấm gia vị. Tiếp đến, cho lá giang vào xào cùng. Đến khi lá đổi màu thì cho nước vào nấu sôi.",
+            "Nấu canh chua: Sau khi nước sôi, cho các loại rau đã chuẩn bị vào, nêm nếm lại lần nữa rồi tắt bếp và cho ra tô."
+        ]
+    },
+    "cao_lau": {
+        "name": "Cao lầu Hội An",
+        "ingredients": [
+            "Thịt heo   500 gr",
+            "Xương ống heo   500 gr",
+            "Bột mì đa dụng   200 gr",
+            "Bột gạo   200 gr",
+            "Bột năng   140 gr",
+            "Tỏi   6 tép",
+            "Nước tương   3 muỗng canh",
+            "Ngũ vị hương   1 muỗng cà phê",
+            "Hành tây   1 củ",
+            "Rau thơm ăn kèm   1 ít",
+            "Giá   1 ít",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Trộn bột: Trộn đều 140gr bột mì đa dụng, 140gr bột gạo, 140gr bột năng cùng 1 muỗng cà phê muối với nhau. Còn 60gr bột mì và 60gr bột gạo còn lại trộn đều và để ra tô riêng. Thêm từ từ 1/2 cốc nước nóng và bắt đầu trộn hỗn hợp bột. Khi bột bắt đầu kết lại với nước, bạn thêm 2 muỗng canh dầu ăn vào và nhào bột bằng tay. Nhào bột liên tục trong khoảng 30 phút đến khi thu được khối bột dẻo mịn, không bị dính và không bị cứng. Sau đó, bạn phủ khăn lên trên và ủ bột khoảng 20 phút.",
+            "Làm sợi mì cao lầu: Trước tiên, chia khối bột làm 3 phần bằng nhau. Để bột không bị dính, bạn cần rắc phần bột khô lên bề mặt thớt và cây lăn bột. Dùng cây cán dẹp phần bột đã chia ra thành những miếng dài và mỏng như hình. Rắc bột khô lên trên miếng bột và dao để chống dính, bạn cắt bột thành các sợi mì đều nhau dọc theo chiều rộng với kích thước bằng đầu đũa. Bắc nồi hấp lên bếp, bạn lót 1 lớp giấy nến và dàn đều sợi mì bên trên. Hấp trong khoảng 10 phút thì sợi mì sẽ chín.",
+            "Sơ chế nguyên liệu: Để khử mùi cho xương heo, bạn rửa sơ phần xương heo với nước sạch rồi cho phần xương vào nồi cùng 3 cốc nước, đun ở lửa lớn trong khoảng 10 phút. Khi nước sôi và bọt nổi lên trên, bạn gắp xương ra rồi rửa sạch lại bằng nước. Để khử mùi cho thịt heo, bạn xát muối hột vào thịt rồi để khoảng 10 phút, sau đó rửa sạch lại bằng nước. Bạn lặt phần rau thơm và rửa sạch. Giá sau khi rửa bạn chần qua nước sôi khoảng 30 giây cho chín. Hành tây bạn rửa sạch và bóc vỏ.",
+            "Hầm xương: Bắc một cái nồi khác lên bếp, sau đó cho 3 lít nước lọc, 1 củ hành tây và 1 muỗng cà phê muối rồi thả phần xương vào đun. Bật bếp ở nhiệt độ vừa trong khoảng 1 tiếng và không đóng nắp nồi.",
+            "Làm thịt xá xíu: Ướp 500gr thịt heo với 3 muỗng canh nước tương, 1 muỗng cà phê ngũ vị hương, 6 tép tỏi đã băm nhuyễn, 1/2 muỗng cà phê muối, 1 muỗng cà phê hạt nêm và 1 muỗng cà phê tiêu. Ướp thịt trong khoảng 30 phút hoặc qua đêm để thấm gia vị. Để gia vị không bị cháy và bắn dầu khi chiên, sau khi ướp, bạn gắp miếng thịt ra và lau bớt phần nước ướp trên bề mặt thịt. Bắc chảo lên bếp cùng 1 ít dầu ăn, tiến hành chiên các mặt của miếng thịt ở lửa lớn cho đến khi miếng thịt chuyển sang màu vàng giòn. Khi bề mặt miếng thịt đã vàng đều, bạn đổ bớt phần dầu dư ra và chỉnh nhỏ lửa. Cho toàn bộ phần gia vị ướp vào cùng 4 muỗng canh nước hầm xương. Ninh thịt trong khoảng 30 phút tới khi thịt chín mềm.",
+            "Nấu nước dùng: Bạn pha 2 cốc nước hầm xương vào phần sốt ninh thịt và đun sôi khoảng 5 phút để tạo thành nước dùng.",
+            "Hoàn thành: Thịt sau khi đã ninh chín mềm, gắp ra để nguội rồi dùng dao cắt thịt thành từng lát mỏng vừa miệng ăn. Để bày trí món ăn, bạn cho vào tô 1 ít rau thơm và giá chần, 1 ít sợi mì (tùy theo khẩu phần ăn ít hay nhiều) đã hấp chín cùng với thịt đã cắt lát và chan khoảng 5 muỗng canh nước dùng vào.",
+            "Thành phẩm: Món cao lầu khi hoàn thành sẽ có mùi thơm của thịt xá xíu, miếng thịt đậm đà, mềm ngon kết hợp cùng sợi mì to khi cắn vào sẽ thấy có chút độ dai thấm với phần nước dùng đậm đà. Phần rau thơm ăn kèm sẽ giúp cân bằng lại phần nước dùng có chút dầu mỡ, mang lại sự hài hòa cho món ăn."
+        ]
+    },
+    "chao_long": {
+        "name": "Cháo lòng miền Trung",
+        "ingredients": [
+            "Gạo tẻ   1 chén",
+            "Tim   1 quả",
+            "Cật   1 quả",
+            "Gan   1/2 quả",
+            "Dồi trường   300 gr",
+            "Hành lá   4 nhánh",
+            "Rau răm   1 ít",
+            "Ớt   2 trái",
+            "Chanh   2 trái",
+            "Hành tăm   8 củ",
+            "Hành tây tím   1 củ",
+            "Hành tây   1 củ",
+            "Giấm   3 muỗng canh",
+            "Nước mắm   2 muỗng canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Vo gạo và nấu cháo: Gạo bạn vo sạch vài lần với nước, sau đó ngâm gạo trong nước khoảng 10 phút. Cho vào nồi 3 lít nước, bắc lên bếp nấu sôi thì cho phần gạo ngâm nước vào, thêm 1/3 muỗng canh muối, nấu trên lửa vừa khoảng 1 tiếng cho gạo bung ra, khoảng 5 phút bạn khuấy nhẹ cháo chín đều không bị dính đáy nồi.",
+            "Sơ chế lòng heo: Để khử mùi hôi lòng heo bạn cho tim, cật, gan, dồi trường vào thau, thêm 2 trái chanh vắt nước vào, 3 muỗng canh giấm, 1 muỗng canh muối, trộn đều đều khoảng 2 - 3 phút, bóp nhẹ rồi rửa sạch vài lần với nước cho ráo. Sau đó cắt lòng heo thành miếng vừa ăn rồi để ráo.",
+            "Sơ chế các nguyên liệu còn lại: Hành tăm và ớt rửa sạch rồi băm nhuyễn. Hành tây tím bóc vỏ cắt nhỏ. Hành tây bạn bóc vỏ dùng con dao 2 lưỡi hoặc dao thật bén bào mỏng, hành lá rửa sạch phần đầu hành đập dập để riêng, lá hành cắt nhỏ, rau răm rửa sạch cắt nhỏ.",
+            "Ướp lòng heo: Cho lòng heo vào tô, cho hết phần hành tăm, ớt, hành tây tím băm vào, nêm thêm 1/2 muỗng canh muối, 1/3 muỗng canh bột ngọt, 1/2 muỗng canh bột nêm, 2 muỗng canh nước mắm vào trộn đều hỗn hợp, ướp khoảng 15 phút cho thấm gia vị.",
+            "Luộc huyết: Bắc nồi lên bếp khác cho huyết vào rồi cho nước vào ngập mặt huyết, luộc ở lửa vừa khoảng 10 phút cho huyết chín. Bạn vớt huyết ra cắt miếng vừa ăn.",
+            "Hoàn thành cháo: Nồi cháo đã chín, gạo bung đều, bạn cho đầu hành vào, sau đó cho phần lòng heo ướp gia vị vào nồi khuấy đều nấu thêm khoảng 4 - 5 phút cho lòng vừa chín, nêm nếm lại vừa ăn rồi tắt bếp bạn nha! Múc cháo ra tô thêm ít hành tây cắt mỏng, hành lá, rau răm và tiêu xay, ít huyết luộc là tô cháo lòng đã hoàn thành rồi bạn nha!",
+            "Thành phẩm: Tô cháo lòng thơm lừng nóng hổi. Hạt gạo nở bung không bị nát,vị ngọt lịm miếng lòng nhai giòn giòn thơm béo. Ăn kèm với ít hành tây và rau răm làm cho món cháo lòng thêm phần ngon hơn.Ngày mưa ăn tô cháo lòng, ấm lòng vô cùng bạn nhé!"
+        ]
+    },
+    "com_tam": {
+        "name": "Cơm tấm",
+        "ingredients": [
+            "Gạo tấm   500 gr",
+            "Thịt heo   300 gr",
+            "Lá dứa   30 gr",
+            "Thịt heo   300 gr",
+            "Mật ong   60 gr",
+            "Nước cốt dừa   30 ml",
+            "Nước cốt chanh   10 ml",
+            "Bột ngũ vị hương   2 gr",
+            "Trứng vịt   5 quả",
+            "Đường thốt nốt   30 gr",
+            "Hành tím   10 gr",
+            "Hoa hồi   20 gr"
+        ],
+        "recipe": [
+            "Nấu cơm: Gạo bạn lựa loại tấm nhuyễn, vo sạch. Ngâm gạo 15 phút, sau đó lấy gạo ra, để ráo. Cho nước vào xửng hấp đun sôi, trộn gạo với 1/2 muỗng cà phê muối, 1 muỗng canh dầu ăn và 30gr lá dứa. Cho gạo vào xửng hấp 30 phút, cơm chín mở nắp xửng xới đều.",
+            "Nướng thịt: Thịt heo chọn loại vừa có nạc vừa có mỡ, bạn rửa sạch, cắt thành từng miếng mỏng khoảng 1 cm. Ướp thịt heo với 60gr mật ong, 30ml nước mắm, 30ml nước cốt dừa, 30gr dầu hào, 10gr dầu ăn, 2gr ngũ vị hương, trộn đều sau đó ướp thịt tối thiểu 30 phút cho thấm gia vị. Sau thịt ướp xong bạn đặt thịt trên bếp than hoặc bếp nướng điện nướng chín.",
+            "Kho trứng: Trứng vịt bạn luộc chín, bóc vỏ. Đun nóng 2 muỗng canh dầu ăn, cho vào nồi 30gr đường thốt nốt, đun đến khi đường chuyển sang màu cánh gián thì cho 10gr hành tím băm vào phi thơm. Tiếp theo đổ vào nồi 400ml nước dừa, 20ml nước tương, 20ml nước mắm, 20gr dầu hào, 3-4 nhánh hoa hồi (khoảng 1 hoa) rồi khuấy đều. Đun đến khi nước sôi thì cho trứng vào kho, để lửa nhỏ đến khi cạn nước, trứng chuyển màu cánh gián thì tắt bếp.",
+            "Làm nước mắm và mỡ hành: Bạn cho 40 ml nước dừa tươi, 20 ml nước mắm và 30 gr đường đun to lửa và khuấy đều. Đến khi hỗn hợp sền sệt lại là đạt. Tắt bếp, để nguội. Khi ăn bạn trộn vào ớt băm, tỏi băm, 1/2 muỗng cà phê nước cốt chanh, khuấy đều. Cho dầu hoặc mỡ đông vào chảo, thêm vào 50 gr hành lá cắt nhỏ, xào chín.",
+            "Thành phẩm: Cắt thịt nướng, trứng kho thành những miếng nhỏ. Lấy cơm ra đĩa, xếp thịt, trứng, đồ chua, bì sợi, rưới lên trên ít nước mắm, mỡ hành, vậy là thưởng thức được rồi."
+        ]
+    },
+    "goi_cuon": {
+        "name": "Gỏi cuốn tôm thịt",
+        "ingredients": [
+            "Thịt heo   300 gr",
+            "Tôm   300 gr",
+            "Hẹ   10 nhánh",
+            "Ớt   2 trái",
+            "Tỏi   1 củ",
+            "Bún tươi   200 gr",
+            "Bánh tráng mỏng   300 gr",
+            "Nước cốt chanh   3 muỗng canh",
+            "Rau ăn kèm   1 ít",
+            "Nước mắm   5 muỗng canh",
+            "Muối/ đường   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế thịt heo: Thịt heo mua về rửa sạch với nước, để khử mùi hôi của thịt, bạn dùng 1 ít muối chà xát xung quanh miếng thịt rồi rửa lại 2 - 3 lần với nước, sau đó vớt ra để ráo. Tiếp đến, bạn cho thịt vào nồi đổ ngập nước, thêm vào 1 muỗng cà phê muối rồi đặt nồi lên bếp đun với lửa lớn. Khi nước sôi tầm 3 - 5 phút thì tắt bếp. Để loại bỏ các chất bẩn bám trên bề mặt thịt, cũng như giúp cho thịt sẽ trong hơn, khi vớt thịt ra bạn sẽ rửa thịt lại qua với nước lạnh. Tiếp đến, bạn bắc nồi lên bếp, cho thịt đã chần lúc nãy vào, đổ nước ngập phần thịt rồi thêm vào 1 muỗng cà phê muối, vặn lửa vừa luộc thịt tầm 30 - 40 phút cho tới khi thịt đã chín mềm, thì tắt bếp vớt thịt ra dĩa, để nguội sau đó cắt thịt thành từng lát mỏng vừa ăn.",
+            "Sơ chế tôm: Tôm mua về bạn có thể để nguyên con hoặc cắt bỏ đầu tùy ý thích, rửa lại vài lần với nước rồi cho vào nồi. Bắc nồi lên bếp thêm 1 ít nước, đậy nắp, mở lửa vừa, nấu cho tôm chuyển sang màu đỏ và chú ý phải đảo đều. Sau đó bạn vớt tôm ra để nguội, bóc sạch vỏ, cắt đôi tôm theo chiều dọc theo sống lưng và bỏ chỉ lưng của tôm, rồi xếp tôm ra dĩa.",
+            "Sơ chế các nguyên liệu khác: Hẹ mua về cắt bỏ gốc, rửa sạch. Rau sống ăn kèm nhặt lá tươi ngon, đem ngâm với nước muối pha loãng khoảng 10 phút sau đó rửa lại vài lần với nước rồi vớt ra rổ để ráo. Tỏi bóc sạch vỏ, ớt bỏ cuống, rửa sơ qua với nước rồi băm nhuyễn.",
+            "Cuốn gỏi: Trải bánh tráng mỏng ra dĩa, thấm sơ 1 ít nước lên bánh tráng cho dễ cuốn, sau đó xếp rau sống, bún tươi, thịt, tôm, hẹ lên rồi cuộn tất cả các nguyên liệu lại cho chắc tay là được. Cứ như vậy bạn thực hiện cho đến khi hết phần nguyên liệu nhé.",
+            "Làm nước chấm: Cho vào chén 2 muỗng canh đường, thêm vào 2 muỗng canh nước lọc khuấy đều cho đường tan hết thì cho vào 3 muỗng canh nước cốt chanh, 5 muỗng canh nước mắm tiếp tục khuấy đều. Cuối cùng cho toàn bộ phần tỏi, ớt đã băm nhuyễn vào vậy là đã hoàn thành xong phần nước chấm.",
+            "Thành phẩm: Bạn bày gỏi cuốn tôm thịt cùng với nước chấm ra và mời mọi người cùng thưởng thức thôi nào. Gỏi cuốn tôm thịt là món ngon có đầy đủ chất dinh dưỡng lại rất dễ ăn, không bị ngán nên đặc biệt thích hợp cho bạn cải thiện ẩm thực cuối tuần của gia đình mình. Chấm cùng với nước mắm chua ngọt quả là ngon hết sẩy. Cùng vào bếp thực hiện ngay nhé!"
+        ]
+    },
+    "hu_tieu": {
+        "name": "Hủ tiếu xương heo",
+        "ingredients": [
+            "Xương heo   500 gr",
+            "Thịt heo xay   200 gr",
+            "Tôm khô   100 gr",
+            "Tôm tươi   200 gr",
+            "Trứng cút   10 quả",
+            "Cà rốt   1 củ",
+            "Củ cải trắng   1 củ",
+            "Rau ăn kèm   200 gr",
+            "Nhánh hẹ   10 nhánh",
+            "Hành tím   4 củ",
+            "Hành phi   50 gr",
+            "Dầu ăn   2 muỗng canh",
+            "Nước mắm   1 muỗng canh",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế xương heo và tôm: Tôm bạn rửa sạch, dùng kéo cắt bỏ phần gai nhọn trên đỉnh đầu tôm, đuôi và chân tôm và để ráo. Sau đó cho vào nồi luộc hoặc hấp chín trong 10 phút. Để khử mùi hôi xương heo bạn ngâm với nước muối loãng khoảng 10 phút, sau đó rửa sạch lại với vài lần nước.",
+            "Sơ chế các nguyên liệu khác: Cà rốt bạn gọt bỏ vỏ, rửa sạch và chia thành 2 nửa, một nửa cắt hạt lựu nhỏ, nửa còn lại bạn cắt khúc. Củ cải trắng bạn cũng gọt bỏ vỏ, rửa sạch và cắt khúc. Hẹ bạn rửa sạch, cắt thành những khúc có độ dài khoảng 1.5 lóng tay. Rau ăn kèm bạn rửa sạch, cắt nhỏ tùy thích cho dễ ăn là được. Trứng cút bạn cho vào nồi cùng với 1 muỗng cà phê muối và luộc khoảng 5 - 7 phút cho trứng chín rồi để nguội, lột bỏ vỏ.",
+            "Ướp thịt và xương: Cho 200gr thịt xay ra tô trộn cùng với phần cà rốt cắt hạt lựu, 1 củ hành tím băm nhỏ (hoặc cắt lát) và thêm vào gia vị mỗi loại 1/2 muỗng cà phê muối, 1/2 muỗng cà phê tiêu, 1/2 muỗng cà phê đường, 1/2 muỗng cà phê hạt nêm và 1/2 muỗng cà phê bột ngọt. Trộn đều và ướp khoảng 15 phút cho phần thịt được thấm vị. Cho phần xương đã sơ chế ra 1 cái tô khác, ướp gia vị gồm 3 củ hành tím cắt lát, 1 muỗng canh đường, 1 muỗng cà phê muối, 1 muỗng cà phê bột ngọt, 1 muỗng cà phê tiêu, 1 muỗng canh hạt nêm và ướp khoảng 30 phút.",
+            "Xào thịt băm: Bắc chảo lên bếp cùng với 1 muỗng canh dầu ăn vào đun nóng rồi cho phần thịt băm đã ướp vào xào đều khoảng 10 phút cho thịt chín hoàn toàn.",
+            "Nấu nước dùng: Bắc nồi lên bếp cho vào 1 muỗng canh dầu ăn đun nóng, cho tiếp phần tôm khô và xương heo vào xào khoảng 5 phút cho thịt được săn lại. Tiếp đến đổ vào nồi 1.5 lít nước, đun khoảng 15 phút, cho tiếp củ cải trắng và phần cà rốt vào hầm thêm 20 phút. Sau thời gian hầm, bạn nêm vào thêm 3 muỗng canh đường, 1 muỗng canh nước mắm, 1 muỗng canh hạt nêm, 1.5 muỗng cà phê bột ngọt, 1 muỗng cà phê muối, 1 ít tiêu. Dùng vá khuấy tan gia vị, nêm nếm lại sao cho vừa ăn, cho thêm tôm đã hấp chín vào nấu thêm 5 phút rồi tắt bếp.",
+            "Thành phẩm: Khi ăn bạn chỉ cần trụng hủ tiếu với nước sôi khoảng 10 giây rồi cho ra tô, cho xương, tôm tươi, trứng cút và thịt băm xào lên, cho thêm ít hành phi và hẹ cắt khúc. Chan thêm nước dùng và ăn kèm rau sống là đúng chuẩn vị luôn. Khi ăn bạn sẽ cảm nhận được nước dùng vô cùng ngọt của nước dùng cùng với thịt và tôm sẽ làm bạn cảm thấy rất ngon miệng. Món hủ tiếu xương này chắc chắn sẽ là một bữa sáng cực kì dinh dưỡng cho cả gia đình mà hương vị ngon không kém gì ngoài hàng đâu nhé."
+        ]
+    },
+    "mi_quang": {
+        "name": "Mì quảng gà",
+        "ingredients": [
+            "Mì quảng   800 gr",
+            "Gà   1 con",
+            "Trứng cút   15 quả",
+            "Nước dừa   500 ml",
+            "Đậu phộng rang   50 gr",
+            "Bánh tráng mè nướng   4 cái",
+            "Bột nghệ   1 muỗng canh",
+            "Dầu màu điều   1 muỗng canh",
+            "Nước dừa tươi   500 ml",
+            "Hành lá   3 nhánh",
+            "Hành tây   1 củ",
+            "Củ nén   10 củ",
+            "Rau ăn kèm   1 ít",
+            "Nước mắm   2 muỗng canh",
+            "Đường phèn   1 muỗng canh",
+            "Hạt nêm   1/2 muỗng canh",
+            "Muối   1 ít"
+        ],
+        "recipe": [
+            "Sơ chế nguyên liệu: Mua gà nguyên con đã làm sẵn về, khử mùi hôi bằng cách ngâm trong nước muối loãng khoảng 10 phút rồi rửa sạch lại với nước, cắt miếng vừa ăn. Củ hành tây, củ nén lột vỏ, rửa sạch, băm nhuyễn. Rau chuối, hành lá, xà lách, rau húng lủi rửa sạch. Hành lá cắt nhỏ, đập dập đậu phộng rang.",
+            "Ướp gà và luộc trứng cút: Ướp gà với 1/2 phần hành tây và củ nén băm, 1/2 muỗng canh bột nghệ, 1/2 muỗng canh hạt nêm, trộn đều, để yên 15 phút để thịt gà thấm gia vị. Trứng cút cho vào nồi nước và luộc 7 - 10 phút rồi lấy ra để nguội, bóc vỏ.",
+            "Nấu nước dùng mì quảng: Bắc chảo lên bếp với 1 muỗng canh dầu màu điều. Khi dầu nóng bạn cho vào phần hành tây và củ nén băm còn lại, 1/2 muỗng canh bột nghệ, phi thơm. Tiếp theo cho thịt gà đã ướp vào xào đến khi thịt săn lại. Cho vào 700ml nước lọc, 500ml nước dừa tươi, đảo đều trên lửa lớn. Khi nước sôi thì nêm vào 2 muỗng canh nước mắm, 1 muỗng canh đường phèn, đảo đều rồi giảm  lửa vừa và nấu khoảng 15 - 20 phút. Nêm nếm gia vị lại cho vừa ăn rồi cho trứng cút vào, nấu thêm 5 phút nữa thì tắt bếp.",
+            "Hoàn thành: Bắc nồi nước sôi lên bếp rồi cho 1 lượng mì vừa ăn vào trụng khoảng 1 - 2 phút rồi vớt ra tô. Sau đó cho thịt gà, trứng cút, 1 ít hành lá, đậu phộng rang vào rồi chan nước dùng lên là có thể thưởng thức được rồi.",
+            "Thành phẩm: Thế là đã hoàn thành món mì quảng gà có mùi thơm thoang thoảng nhẹ nhàng của củ nén và bột nghệ, mùi thơm của các loại rau ăn kèm. Thịt gà mềm mềm, sợi mì dai dai, độ bùi béo của trứng cút và đậu phộng rang hòa quyện với nước dùng ngọt thanh đậm đà. Khi ăn có thể nêm vào 1 ít nước mắm, vài lát ớt và ăn kèm thêm miếng bánh tráng mè nướng nữa thì chắc chắn sẽ khiến bạn mê lắm đấy!"
+        ]
+    },
+    "nem_chua": {
+        "name": "Nem chua Thanh Hóa",
+        "ingredients": [
+            "Thịt nạc mông   2 kg",
+            "Da heo   1 kg",
+            "Lá ổi   1 ít",
+            "Tỏi   3 củ",
+            "Ớt   10 trái",
+            "Rượu trắng   5 muỗng cà phê",
+            "Gia vị làm nem chua Thái   140 gr",
+            "Tiêu hạt   4 muỗng canh",
+            "Đường   50 gr"
+        ],
+        "recipe": [
+            "Sơ chế thịt và bì heo: Thịt heo mua về lọc bỏ màng mỡ và các gân thịt. Cắt thịt đã làm sạch thành những lát nhỏ và chia đều ra làm 5 phần, cho vào các túi ni lông rồi cho vào ngăn đá tủ lạnh khoảng 1 tiếng cho thịt se lạnh. Da heo mua về làm sạch, cho vào nồi luộc chín khoảng 10 phút, vớt ra để thật ráo nước và nguội rồi cắt sợi nhỏ.",
+            "Sơ chế các nguyên liệu phụ: Tỏi, ớt, lá ổi rửa sạch, để ráo và khô nước hoàn toàn. Đối với ỏi và ớt 1/2 phần mang đi băm nhỏ, 1/2 phần còn lại bạn cắt lát mỏng. Lá ổi cắt làm đôi hoặc làm 4 tùy vào lá to hay nhỏ. Tiêu hạt thì mang đi xay không quá mịn ở tốc độ trung bình khoảng 5 giây, tiêu hơi dập là được.",
+            "Xay thịt: Sau khi làm lạnh thịt thì lấy mỗi túi thịt ra xay lần 1 bằng máy xay thịt, mỗi lần xay 5 - 7 giây ở tốc độ cao. Sau khi xay cất phần thịt xay này vào lại vào ngăn đá trong tủ lạnh thêm 30 phút. Bạn xay các túi thịt còn lại cho đến khi hết. Tiếp tục với lần xay thịt lần thứ 2, bạn lấy thịt ra xay lần 2 cho nhuyễn, giữ nguyên tắc xay như lần 1, đảm bảo thịt lạnh dẻo. Sau khi xay hết thịt lần 2 thì cho tất cả thịt ra thau to.",
+            "Trộn gia vị nem: Cho vào thau thịt xay phần da heo đã cắt nhỏ, tỏi và ớt băm, tiêu xay nhỏ, 50gr đường, 5 muỗng cà phê rượu trắng trộn đều cho các nguyên liệu và gia vị hòa vào nhau. Tiếp tục cắt 2 gói gia vị làm nem chua Thái, bỏ 2 gói men cái nhỏ bên trong ra 1 bên. Đổ đều 2 gói men lên thau thịt tiếp tục trộn đều 7 - 10 phút. Cuối cùng bạn cắt 2 gói men cái nhỏ rắc đều vào thau và trộn đều thêm 2 - 3 phút (lúc này sẽ thấy thịt tái chín hơn và trộn nặng tay hơn).",
+            "Nén nem: Chuẩn bị 1 cái khuôn chữ nhật, lót màng bọc thực phẩm vào trong, cho nem vào nén chặt và bọc kín lại nhiều lớp. Cho miếng nem sau khi được nén chặt ra thớt, dùng cán lăn đi lăn lại nhiều lần. Sau đó để ngoài ở nhiệt độ phòng 4 - 5 tiếng cho nem cứng chắc lại.",
+            "Gói nem: Sau 4 - 5 tiếng thì nem đã cứng chắc, bạn loại bỏ lớp màng bọc thực phẩm, dùng dao cắt nem thành từng miếng to, nhỏ tùy theo sở thích. Trang trí trên bề mặt miếng nem 1 lát tỏi, ớt đã cắt lát, lá ổi đã cắt nhỏ cho đẹp. Tiếp tục dùng màng bọc thực phẩm khéo léo dùng tay gói kín lại. Làm tương tự cho đến khi hết các nguyên liệu. Để nem sau khi gói ngoài nhiệt độ phòng khoảng 1 ngày (trời nóng) hoặc 2 ngày (nếu trời lạnh) rồi cất vào ngăn mát tủ lạnh ăn dần.",
+            "Thành phẩm: Nem chua Thanh Hóa không cần lá chuối khi chín sẽ thơm, chua nhẹ, vị rất ngon và đảm bảo vệ sinh. Có thể làm để nhấm nháp hoặc thay đổi khẩu vị cho những ngày nghỉ hoặc để dành ăn vào những ngày nghỉ dịch."
+        ]
+    },
+    "xoi_xeo": {
+        "name": "Xôi xéo",
+        "ingredients": [
+            "Gạo nếp   500 gr",
+            "Đậu xanh xát vỏ   200 gr",
+            "Thịt ba chỉ   500 gr",
+            "Trứng gà   5 quả",
+            "Bột nghệ   10 gr",
+            "Hành tím   100 gr",
+            "Mỡ heo   50 gr",
+            "Gia vị thịt kho   1 muỗng cà phê",
+            "Gia vị thông dụng   1 ít"
+        ],
+        "recipe": [
+            "Làm hành phi: Hành tím bóc vỏ, rửa sạch, cắt lát mỏng. Cho mỡ heo vào nồi rồi nấu trên lửa vừa sôi, tiếp đến bạn cho hành vào đảo, thấy mỡ tóp lại và ngả hơi vàng thì tắt bếp. Tiếp theo, bạn vớt hành ra giấy thấm dầu và lọc phần nước mỡ để riêng.",
+            "Nấu xôi: Gạo nếp vo thật sạch đến khi nước trong. Ngâm gạo cùng 1 muỗng cà phê muối và 10gr bột nghệ trong nước từ 6 - 8 tiếng. Sau đó, vớt gạo nếp ra để ráo nước. Kế đến, bạn trải khăn vào nồi cơm điện, đổ nước vào nồi. Bật chế độ hấp, sau 30 phút kiểm tra thấy xôi chín dẻo là được, lúc xôi gần chín thì bạn cho thêm một ít nước mỡ lúc phi hành cho xôi béo hơn.",
+            "Hấp đậu xanh: Đậu xanh rửa thật sạch, cho 1 muỗng cà phê muối vào đậu xanh và ngâm trong nước khoảng 2 - 3 tiếng thì vớt ra, để ráo. Tiếp theo, cho đậu xanh vào nồi cơm điện, đổ nước vào nồi để chế độ hấp. Sau khi hấp được 20 phút thì lấy ra, dùng muỗng nghiền nát. Thêm 5 muỗng mỡ từ hành phi vào, trộn đều, nắm tròn lại, khi ăn sẽ dùng dao bào mỏng.",
+            "Làm thịt kho ăn kèm: Thịt ba chỉ bạn rửa sạch, cắt thành những miếng bằng 2 ngón tay, ướp cùng 1 muỗng cà phê gia vị thịt kho trong 30 phút. Cho thịt vào nồi áp suất và hầm trong khoảng 30 phút rồi mở nắp ra, cho trứng gà đã luộc chín vào và hầm thêm 10 phút nữa. Cuối cùng, bạn nêm nếm lại cho vừa ăn.",
+            "Thành phẩm: Khi hoàn thành thì bạn đã có ngay món xôi xéo gạo nếp rồi. Bày ra dĩa hoặc mẹt có lót lá chuối xanh, cắt đậu xanh lên trên, rắc hành phi và ăn cùng thịt kho. Khi ăn bạn sẽ cảm nhận được hạt nếp mềm dẻo thơm, thịt heo vừa ăn rất ngon."
+        ]
+    }
+}
