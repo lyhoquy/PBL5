@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, url_for
+from flask import Blueprint, request, jsonify, url_for, send_file, current_app as app
 import os
 import numpy as np
 from werkzeug.utils import secure_filename
@@ -11,6 +11,27 @@ def setup_models(models, class_names):
     global model1, model2, class_labels
     model1, model2 = models.get('model1'), models.get('model2')
     class_labels = class_names
+
+@api_bp.route('/upload_image', methods=['POST'])
+def upload_image():
+    file = request.files.get('image')
+    if not file:
+        return jsonify({"error": "No file uploaded"}), 400
+
+    filename = secure_filename(file.filename or "received_image.jpg")
+    save_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    file.save(save_path)
+
+    # Bạn có thể log hoặc xử lý ảnh ở đây nếu muốn
+    return jsonify({"message": "Image uploaded successfully", "path": save_path}), 200
+
+@api_bp.route('/get_image', methods=['GET'])
+def get_latest_image():
+    image_path = os.path.join(app.config['UPLOAD_FOLDER'], 'received_image.jpg')
+    if os.path.exists(image_path):
+        return send_file(image_path, mimetype='image/jpeg')
+    return jsonify({"error": "No image found"}), 404
+
 
 @api_bp.route('/api/upload_and_predict', methods=['POST'])
 def upload_and_predict():
