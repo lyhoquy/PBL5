@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cẩm Nang Ẩm Thực Du Lịch Việt Nam</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-color: #d4a574;
+        --secondary-color: #8b4513;
+        --accent-color: #ff6b6b;
+        --success-color: #51cf66;
+        --background-gradient: linear-gradient(
+          135deg,
+          #667eea 0%,
+          #764ba2 100%
+        );
+        --card-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        --text-primary: #2c3e50;
+        --text-secondary: #7f8c8d;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background: var(--background-gradient);
+        min-height: 100vh;
+        color: var(--text-primary);
+        overflow-x: hidden;
+      }
+
+      .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23ff6b6b" width="1200" height="600"/><polygon fill="%23d4a574" points="0,300 300,100 600,250 900,50 1200,200 1200,600 0,600"/></svg>');
+        background-size: cover;
+        background-position: center;
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        animation: fadeInUp 1.2s ease-out;
+      }
+
+      .hero-title {
+        font-family: "Playfair Display", serif;
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 1rem;
+        line-height: 1.2;
+      }
+
+      .hero-subtitle {
+        font-size: 1.3rem;
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 2rem;
+        font-weight: 300;
+      }
+
+      .floating-elements {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        pointer-events: none;
+      }
+
+      .floating-element {
+        position: absolute;
+        opacity: 0.1;
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .floating-element:nth-child(1) {
+        top: 10%;
+        left: 10%;
+        animation-delay: 0s;
+      }
+      .floating-element:nth-child(2) {
+        top: 20%;
+        right: 10%;
+        animation-delay: 2s;
+      }
+      .floating-element:nth-child(3) {
+        bottom: 20%;
+        left: 20%;
+        animation-delay: 4s;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-20px) rotate(5deg);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .main-container {
+        background: white;
+        margin-top: -100px;
+        position: relative;
+        z-index: 3;
+        border-radius: 30px 30px 0 0;
+        box-shadow: var(--card-shadow);
+        min-height: calc(100vh - 40vh);
+      }
+
+      .nav-tabs {
+        border: none;
+        background: transparent;
+        padding: 2rem 0 1rem 0;
+        justify-content: center;
+      }
+
+      .nav-tabs .nav-link {
+        border: none;
+        background: transparent;
+        color: var(--text-secondary);
+        font-weight: 500;
+        padding: 1rem 2rem;
+        margin: 0 0.5rem;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .nav-tabs .nav-link:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        transition: left 0.5s;
+      }
+
+      .nav-tabs .nav-link:hover:before {
+        left: 100%;
+      }
+
+      .nav-tabs .nav-link.active {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--secondary-color)
+        );
+        color: white;
+        box-shadow: 0 8px 25px rgba(212, 165, 116, 0.3);
+        transform: translateY(-2px);
+      }
+
+      .nav-tabs .nav-link i {
+        margin-right: 0.5rem;
+      }
+
+      .tab-content {
+        padding: 2rem;
+      }
+
+      .prediction-card {
+        background: white;
+        border-radius: 20px;
+        box-shadow: var(--card-shadow);
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .prediction-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+      }
+
+      .upload-zone {
+        border: 3px dashed var(--primary-color);
+        border-radius: 20px;
+        padding: 3rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        background: linear-gradient(
+          135deg,
+          rgba(212, 165, 116, 0.05),
+          rgba(139, 69, 19, 0.05)
+        );
+        position: relative;
+        overflow: hidden;
+      }
+
+      .upload-zone:hover {
+        border-color: var(--accent-color);
+        background: linear-gradient(
+          135deg,
+          rgba(255, 107, 107, 0.05),
+          rgba(212, 165, 116, 0.05)
+        );
+        transform: scale(1.02);
+      }
+
+      .upload-zone input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        cursor: pointer;
+      }
+
+      .btn-primary {
+        background: linear-gradient(
+          135deg,
+          var(--primary-color),
+          var(--secondary-color)
+        );
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(212, 165, 116, 0.4);
+      }
+
+      .btn-primary:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.2),
+          transparent
+        );
+        transition: left 0.5s;
+      }
+
+      .btn-primary:hover:before {
+        left: 100%;
+      }
+
+      .destination-card {
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: var(--card-shadow);
+        transition: all 0.3s ease;
+        margin-bottom: 2rem;
+      }
+
+      .destination-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+      }
+
+      .destination-header {
+        background: linear-gradient(
+          135deg,
+          var(--accent-color),
+          var(--primary-color)
+        );
+        color: white;
+        padding: 1.5rem;
+        position: relative;
+      }
+
+      .destination-header:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1" fill="rgba(255,255,255,0.1)"/></svg>');
+      }
+
+      .recipe-section {
+        background: linear-gradient(
+          135deg,
+          rgba(81, 207, 102, 0.05),
+          rgba(212, 165, 116, 0.05)
+        );
+        border-radius: 20px;
+        padding: 2rem;
+        margin-top: 2rem;
+        border: 1px solid rgba(212, 165, 116, 0.2);
+      }
+
+      .ingredient-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .ingredient-item {
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        border-left: 4px solid var(--success-color);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s ease;
+      }
+
+      .ingredient-item:hover {
+        transform: translateX(5px);
+      }
+
+      .recipe-step {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 15px;
+        margin-bottom: 1rem;
+        border-left: 4px solid var(--primary-color);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        position: relative;
+      }
+
+      .recipe-step:before {
+        content: counter(step-counter);
+        counter-increment: step-counter;
+        position: absolute;
+        left: -2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: var(--primary-color);
+        color: white;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+
+      .recipe-steps {
+        counter-reset: step-counter;
+        padding-left: 2rem;
+      }
+
+      .region-badge {
+        background: linear-gradient(135deg, var(--success-color), #40c057);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      .confidence-bar {
+        height: 8px;
+        background: #e9ecef;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-top: 0.5rem;
+      }
+
+      .confidence-fill {
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          var(--success-color),
+          var(--primary-color)
+        );
+        border-radius: 4px;
+        transition: width 1s ease;
+      }
+
+      .model-comparison {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .model-card {
+        background: white;
+        border-radius: 15px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+      }
+
+      .model-card:hover {
+        border-color: var(--primary-color);
+        transform: translateY(-5px);
+      }
+
+      .prediction-image {
+        max-width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .status-indicator {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      .status-available {
+        background: rgba(81, 207, 102, 0.1);
+        color: var(--success-color);
+      }
+
+      .status-unavailable {
+        background: rgba(255, 107, 107, 0.1);
+        color: var(--accent-color);
+      }
+
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+
+        .nav-tabs .nav-link {
+          padding: 0.75rem 1rem;
+          margin: 0.25rem;
+          font-size: 0.9rem;
+        }
+
+        .tab-content {
+          padding: 1rem;
+        }
+
+        .prediction-card {
+          padding: 1.5rem;
+        }
+      }
+
+      .loading-spinner {
+        display: none;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .spinner-border {
+        width: 3rem;
+        height: 3rem;
+        border-width: 0.3em;
+        border-color: var(--primary-color);
+        border-right-color: transparent;
+      }
+      .landmark-item {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 0.75rem;
+        border-radius: 8px;
+        border-left: 3px solid var(--accent-color);
+        transition: all 0.3s ease;
+      }
+
+      .landmark-item:hover {
+        background: white;
+        transform: translateX(5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .me-2 {
+        margin-right: 0.5rem;
+      }
+      .result-header {
+        background: linear-gradient(
+          135deg,
+          rgba(212, 165, 116, 0.1),
+          rgba(255, 107, 107, 0.1)
+        );
+        padding: 2rem;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+      }
+
+      .top5-list {
+        background: #f8f9fa;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+
+      .top5-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #e9ecef;
+      }
+
+      .top5-item:last-child {
+        border-bottom: none;
+      }
+
+      .rank {
+        font-weight: bold;
+        color: var(--primary-color);
+        min-width: 30px;
+      }
+
+      .class-name {
+        flex: 1;
+        margin: 0 1rem;
+      }
+
+      .confidence {
+        font-weight: 500;
+        color: var(--success-color);
+      }
+
+      .recipe-header {
+        background: linear-gradient(
+          135deg,
+          rgba(81, 207, 102, 0.1),
+          rgba(212, 165, 116, 0.1)
+        );
+        padding: 2rem;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="floating-elements">
+        <div class="floating-element">🍜</div>
+        <div class="floating-element">🥢</div>
+        <div class="floating-element">🍲</div>
+      </div>
+      <div class="container">
+        <div class="hero-content text-center">
+          <h1 class="hero-title">Cẩm Nang Ẩm Thực</h1>
+          <p class="hero-subtitle">
+            Khám phá hương vị Việt Nam qua từng món ăn
+          </p>
+          <button class="btn btn-primary btn-lg" onclick="switchTab('predict')">
+            <i class="fas fa-camera"></i> Bắt đầu khám phá
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Container -->
+    <div class="main-container">
+      <div class="container">
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="predict-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#predict"
+              type="button"
+              role="tab"
+            >
+              <i class="fas fa-camera"></i> Nhận diện món ăn
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="results-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#results"
+              type="button"
+              role="tab"
+            >
+              <i class="fas fa-chart-bar"></i> Kết quả phân tích
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="recipe-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#recipe"
+              type="button"
+              role="tab"
+            >
+              <i class="fas fa-utensils"></i> Công thức nấu ăn
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="travel-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#travel"
+              type="button"
+              role="tab"
+            >
+              <i class="fas fa-map-marker-alt"></i> Du lịch & Khám phá
+            </button>
+          </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="mainTabContent">
+          <!-- Predict Tab -->
+          <div class="tab-pane fade show active" id="predict" role="tabpanel">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="prediction-card">
+                  <h3 class="text-center mb-4">
+                    <i class="fas fa-magic text-primary"></i>
+                    Nhận diện món ăn Việt Nam
+                  </h3>
+
+                  <!-- Upload Zone -->
+                  <div class="upload-zone" id="uploadZone">
+                    <input type="file" id="fileInput" accept="image/*" />
+                    <div class="upload-content">
+                      <i
+                        class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"
+                      ></i>
+                      <h5>Thả ảnh vào đây hoặc click để chọn</h5>
+                      <p class="text-muted">
+                        Hỗ trợ JPG, PNG, GIF (tối đa 10MB)
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Camera Options -->
+                  <div class="row mt-4">
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-body text-center">
+                          <i
+                            class="fas fa-mobile-alt fa-2x text-success mb-3"
+                          ></i>
+                          <h6>Camera điện thoại</h6>
+                          <button
+                            class="btn btn-outline-success btn-sm"
+                            onclick="openCamera()"
+                          >
+                            Mở camera
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card h-100">
+                        <div class="card-body text-center">
+                          <i
+                            class="fas fa-raspberry-pi fa-2x text-danger mb-3"
+                          ></i>
+                          <h6>Raspberry Pi Camera</h6>
+                          <div
+                            id="piStatus"
+                            class="status-indicator status-unavailable mb-2"
+                          >
+                            <i class="fas fa-circle"></i> Đang kiểm tra...
+                          </div>
+                          <button
+                            class="btn btn-outline-danger btn-sm"
+                            id="piCameraBtn"
+                            disabled
+                          >
+                            Sử dụng Pi Camera
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Loading Spinner -->
+                  <div class="loading-spinner" id="loadingSpinner">
+                    <div class="spinner-border" role="status"></div>
+                    <p class="mt-3">Đang phân tích hình ảnh...</p>
+                  </div>
+
+                  <!-- Action Buttons -->
+                  <div class="text-center mt-4">
+                    <button
+                      class="btn btn-primary"
+                      id="analyzeBtn"
+                      onclick="analyzeImage()"
+                      disabled
+                    >
+                      <i class="fas fa-search"></i> Phân tích hình ảnh
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Results Tab -->
+          <div class="tab-pane fade" id="results" role="tabpanel">
+            <div class="prediction-card">
+              <h3 class="mb-4">
+                <i class="fas fa-chart-line text-success"></i>
+                Kết quả nhận diện
+              </h3>
+
+              <div class="row" id="resultsContent">
+                <div class="col-12 text-center text-muted">
+                  <i class="fas fa-image fa-3x mb-3"></i>
+                  <p>
+                    Chưa có kết quả phân tích. Vui lòng upload ảnh ở tab "Nhận
+                    diện món ăn"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recipe Tab -->
+          <div class="tab-pane fade" id="recipe" role="tabpanel">
+            <div class="recipe-section">
+              <h3 class="mb-4">
+                <i class="fas fa-book-open text-warning"></i>
+                Công thức nấu ăn
+              </h3>
+
+              <div id="recipeContent">
+                {% if recipe %}
+                <h4 class="mb-3">{{ recipe.name }}</h4>
+                {% if recipe.description %}
+                <p class="mb-4">{{ recipe.description }}</p>
+                {% endif %} {% if recipe.ingredients %}
+                <h5>Nguyên liệu</h5>
+                <div class="ingredient-list">
+                  {% for item in recipe.ingredients %}
+                  <div class="ingredient-item">{{ item }}</div>
+                  {% endfor %}
+                </div>
+                {% endif %} {% if recipe.recipe %}
+                <h5 class="mt-4">Các bước thực hiện</h5>
+                <div class="recipe-steps">
+                  {% for step in recipe.recipe %}
+                  <div class="recipe-step">{{ step }}</div>
+                  {% endfor %}
+                </div>
+                {% endif %} {% else %}
+                <div class="text-center text-muted">
+                  <i class="fas fa-utensils fa-3x mb-3"></i>
+                  <p>Không tìm thấy công thức cho món ăn đã nhận diện</p>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Tab -->
+          <!-- Travel Tab -->
+          <div class="tab-pane fade" id="travel" role="tabpanel">
+            <div class="prediction-card">
+              <h3 class="mb-4">
+                <i class="fas fa-globe-asia text-info"></i> Du lịch & Khám phá
+              </h3>
+
+              <div id="travelContent">
+                <div class="text-center text-muted">
+                  <i class="fas fa-spinner fa-spin fa-2x mb-3"></i>
+                  <p>Đang tải thông tin...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let selectedImage = null;
+
+      // Initialize page
+      document.addEventListener("DOMContentLoaded", function () {
+        checkPiStatus();
+        setupFileUpload();
+      });
+
+      // Switch to specific tab
+      function switchTab(tabName) {
+        const tab = document.getElementById(tabName + "-tab");
+        if (tab) {
+          new bootstrap.Tab(tab).show();
+        }
+      }
+
+      // Setup file upload
+      function setupFileUpload() {
+        const fileInput = document.getElementById("fileInput");
+        const uploadZone = document.getElementById("uploadZone");
+        const analyzeBtn = document.getElementById("analyzeBtn");
+
+        // Drag and drop events
+        uploadZone.addEventListener("dragover", function (e) {
+          e.preventDefault();
+          uploadZone.style.borderColor = "#ff6b6b";
+          uploadZone.style.backgroundColor = "rgba(255, 107, 107, 0.1)";
+        });
+
+        uploadZone.addEventListener("dragleave", function (e) {
+          e.preventDefault();
+          uploadZone.style.borderColor = "#d4a574";
+          uploadZone.style.backgroundColor = "";
+        });
+
+        uploadZone.addEventListener("drop", function (e) {
+          e.preventDefault();
+          uploadZone.style.borderColor = "#d4a574";
+          uploadZone.style.backgroundColor = "";
+
+          const files = e.dataTransfer.files;
+          if (files.length > 0) {
+            handleFileSelect(files[0]);
+          }
+        });
+
+        // File input change
+        fileInput.addEventListener("change", function (e) {
+          if (e.target.files.length > 0) {
+            handleFileSelect(e.target.files[0]);
+          }
+        });
+      }
+
+      // Handle file selection
+      function handleFileSelect(file) {
+        if (!file.type.startsWith("image/")) {
+          alert("Vui lòng chọn file hình ảnh!");
+          return;
+        }
+
+        if (file.size > 10 * 1024 * 1024) {
+          alert("File quá lớn! Vui lòng chọn file nhỏ hơn 10MB.");
+          return;
+        }
+
+        selectedImage = file;
+
+        // Preview image
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          const uploadZone = document.getElementById("uploadZone");
+          uploadZone.innerHTML = `
+                    <img src="${e.target.result}" class="prediction-image" alt="Preview">
+                    <div class="mt-3">
+                        <h6>Ảnh đã được chọn: ${file.name}</h6>
+                        <button class="btn btn-outline-secondary btn-sm" onclick="resetUpload()">
+                            <i class="fas fa-times"></i> Chọn ảnh khác
+                        </button>
+                    </div>
+                `;
+
+          document.getElementById("analyzeBtn").disabled = false;
+        };
+        reader.readAsDataURL(file);
+      }
+
+      // Reset upload
+      function resetUpload() {
+        selectedImage = null;
+        document.getElementById("analyzeBtn").disabled = true;
+        document.getElementById("uploadZone").innerHTML = `
+                <input type="file" id="fileInput" accept="image/*" />
+                <div class="upload-content">
+                    <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
+                    <h5>Thả ảnh vào đây hoặc click để chọn</h5>
+                    <p class="text-muted">Hỗ trợ JPG, PNG, GIF (tối đa 10MB)</p>
+                </div>
+            `;
+        setupFileUpload();
+      }
+
+      // Hàm chuẩn hóa key: bỏ dấu, viết thường, thay khoảng trắng bằng "_"
+      function normalizeKey(str) {
+        return str
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s]/g, "")
+          .replace(/\s+/g, "_");
+      }
+
+      // Hàm phân tích ảnh
+      function analyzeImage() {
+        if (!selectedImage) return;
+
+        document.getElementById("loadingSpinner").style.display = "block";
+        document.getElementById("analyzeBtn").disabled = true;
+
+        const formData = new FormData();
+        formData.append("file", selectedImage);
+
+        fetch("/api/upload_and_predict", {
+          method: "POST",
+          body: formData,
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            document.getElementById("loadingSpinner").style.display = "none";
+            document.getElementById("analyzeBtn").disabled = false;
+
+            if (data.status === "success") {
+              const normalizedKey = normalizeKey(data.best_prediction);
+              displayResults(data);
+              displayRecipe(normalizedKey);
+              displayTravel(normalizedKey);
+              switchTab("results");
+            } else {
+              alert("Phân tích thất bại: " + data.message);
+            }
+          })
+          .catch((err) => {
+            document.getElementById("loadingSpinner").style.display = "none";
+            document.getElementById("analyzeBtn").disabled = false;
+            alert("Lỗi hệ thống khi phân tích ảnh!");
+            console.error(err);
+          });
+      }
+
+      // Check Raspberry Pi status
+      function checkPiStatus() {
+        // Simulate checking Pi status (replace with actual API call)
+        setTimeout(() => {
+          const piStatus = document.getElementById("piStatus");
+          const piBtn = document.getElementById("piCameraBtn");
+
+          // Mock: randomly available or not
+          const isAvailable = Math.random() > 0.5;
+
+          if (isAvailable) {
+            piStatus.className = "status-indicator status-available";
+            piStatus.innerHTML = '<i class="fas fa-circle"></i> Có ảnh mới';
+            piBtn.disabled = false;
+            piBtn.onclick = () => usePiCamera();
+          } else {
+            piStatus.className = "status-indicator status-unavailable";
+            piStatus.innerHTML = '<i class="fas fa-circle"></i> Không có ảnh';
+          }
+        }, 1000);
+      }
+
+      // Open camera
+      function openCamera() {
+        // This would integrate with device camera API
+        alert("Tính năng camera sẽ được tích hợp trong phiên bản tiếp theo!");
+      }
+
+      // Use Pi camera
+      function usePiCamera() {
+        alert("Đang sử dụng ảnh từ Raspberry Pi Camera...");
+        // Simulate using Pi camera image
+        // This would call your actual Pi camera endpoint
+      }
+
+      // Utility functions
+      function printRecipe() {
+        window.print();
+      }
+
+      function shareRecipe() {
+        if (navigator.share) {
+          navigator.share({
+            title: "Công thức nấu ăn",
+            text: "Xem công thức nấu ăn này!",
+            url: window.location.href,
+          });
+        } else {
+          // Fallback: copy to clipboard
+          navigator.clipboard.writeText(window.location.href);
+          alert("Đã copy link chia sẻ!");
+        }
+      }
+
+      function shareTravel() {
+        if (navigator.share) {
+          navigator.share({
+            title: "Thông tin du lịch",
+            text: "Khám phá địa điểm này!",
+            url: window.location.href,
+          });
+        } else {
+          navigator.clipboard.writeText(window.location.href);
+          alert("Đã copy link chia sẻ!");
+        }
+      }
+
+      function planTrip() {
+        alert(
+          "Tính năng lập kế hoạch du lịch sẽ được phát triển trong phiên bản tiếp theo!"
+        );
+      }
+
+      function displayResults(data) {
+        const container = document.getElementById("resultsContent");
+        const best = data.best_prediction || "Không rõ";
+        const models = data.results;
+
+        let html = `
+    <div class="col-12 mb-4">
+      <div class="result-header text-center">
+        <h5 class="mb-3">
+          <i class="fas fa-trophy text-warning me-2"></i>
+          Kết quả tốt nhất: <strong class="text-primary">${best}</strong>
+        </h5>
+        ${
+          selectedImage
+            ? `<img src="${URL.createObjectURL(
+                selectedImage
+              )}" class="prediction-image mb-3" alt="Ảnh đã phân tích">`
+            : ""
+        }
+      </div>
+    </div>`;
+
+        // Hiển thị kết quả từng model
+        for (const key in models) {
+          const model = models[key];
+          const confidenceColor =
+            model.confidence > 0.8
+              ? "success"
+              : model.confidence > 0.5
+              ? "warning"
+              : "danger";
+
+          html += `
+      <div class="col-md-6 mb-4">
+        <div class="model-card">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h6 class="mb-0">${model.name}</h6>
+            <span class="badge bg-${confidenceColor}">${(
+            model.confidence * 100
+          ).toFixed(1)}%</span>
+          </div>
+          
+          <p class="mb-2">
+            <strong>Dự đoán:</strong> 
+            <span class="text-primary">${model.predicted_class}</span>
+          </p>
+          
+          <div class="confidence-bar mb-3">
+            <div class="confidence-fill bg-${confidenceColor}" style="width:${(
+            model.confidence * 100
+          ).toFixed(2)}%"></div>
+          </div>
+          
+          <h6 class="mb-2">Top 5 kết quả:</h6>
+          <div class="top5-list">
+            ${model.top5
+              .map(
+                (item, index) => `
+              <div class="top5-item">
+                <span class="rank">#${index + 1}</span>
+                <span class="class-name">${item.class}</span>
+                <span class="confidence">${(item.confidence * 100).toFixed(
+                  1
+                )}%</span>
+              </div>
+            `
+              )
+              .join("")}
+          </div>
+        </div>
+      </div>`;
+        }
+
+        container.innerHTML = html;
+      }
+
+      function displayRecipe(key) {
+        fetch("/static/recipes.json")
+          .then((res) => res.json())
+          .then((recipes) => {
+            const data = recipes[key];
+            const content = document.getElementById("recipeContent");
+
+            if (!data) {
+              content.innerHTML = `<div class="text-center text-muted">
+          <i class="fas fa-utensils fa-3x mb-3"></i>
+          <p>Không tìm thấy công thức cho món ăn đã nhận diện</p>
+          <small class="text-muted">Key tìm kiếm: ${key}</small>
+        </div>`;
+              return;
+            }
+
+            let html = `
+        <div class="recipe-header text-center mb-4">
+          <h4 class="mb-2">${data.name}</h4>
+          ${
+            data.description
+              ? `<p class="text-muted">${data.description}</p>`
+              : ""
+          }
+        </div>`;
+
+            if (data.ingredients) {
+              html += `
+          <div class="mb-4">
+            <h5><i class="fas fa-shopping-basket text-success me-2"></i>Nguyên liệu</h5>
+            <div class="ingredient-list">
+              ${data.ingredients
+                .map((item) => `<div class="ingredient-item">${item}</div>`)
+                .join("")}
+            </div>
+          </div>`;
+            }
+
+            if (data.recipe) {
+              html += `
+          <div class="mb-4">
+            <h5><i class="fas fa-list-ol text-primary me-2"></i>Các bước thực hiện</h5>
+            <div class="recipe-steps">
+              ${data.recipe
+                .map((step) => `<div class="recipe-step">${step}</div>`)
+                .join("")}
+            </div>
+          </div>`;
+            }
+
+            // Thêm nút action
+            html += `
+        <div class="text-center mt-4">
+          <button class="btn btn-outline-primary me-2" onclick="printRecipe()">
+            <i class="fas fa-print"></i> In công thức
+          </button>
+          <button class="btn btn-outline-success" onclick="shareRecipe()">
+            <i class="fas fa-share-alt"></i> Chia sẻ
+          </button>
+        </div>`;
+
+            content.innerHTML = html;
+          })
+          .catch((err) => {
+            console.error("Lỗi tải công thức:", err);
+            document.getElementById("recipeContent").innerHTML = `
+        <div class="text-center text-danger">
+          <i class="fas fa-exclamation-triangle fa-3x mb-3"></i>
+          <p>Lỗi tải công thức nấu ăn</p>
+        </div>`;
+          });
+      }
+
+      function displayTravel(key) {
+        fetch("/static/destinations.json")
+          .then((res) => res.json())
+          .then((places) => {
+            const data = places[key];
+            const content = document.getElementById("travelContent");
+
+            if (!data) {
+              content.innerHTML = `<div class="text-center text-muted">
+          <i class="fas fa-map-marked-alt fa-3x mb-3"></i>
+          <p>Không có thông tin vùng miền cho món ăn này</p>
+        </div>`;
+              return;
+            }
+
+            let html = `<div class="destination-card">
+        <div class="destination-header">
+          <h5 class="mb-1">
+            <i class="fas fa-map-marker-alt me-2"></i> ${data.region}
+          </h5>
+          <span class="region-badge">Vùng miền đặc trưng</span>
+        </div>
+        <div class="p-4">
+          <div class="mb-3">
+            <h6><i class="fas fa-info-circle text-primary me-2"></i>Mô tả:</h6>
+            <p class="text-muted">${data.description}</p>
+          </div>`;
+
+            if (data.landmarks && data.landmarks.length) {
+              html += `<div class="mb-3">
+          <h6><i class="fas fa-landmark text-warning me-2"></i>Địa điểm nổi bật:</h6>
+          <div class="row">`;
+              html += data.landmarks
+                .map(
+                  (place) =>
+                    `<div class="col-md-6 mb-2">
+                <div class="landmark-item">
+                  <i class="fas fa-map-pin text-danger me-2"></i> ${place}
+                </div>
+              </div>`
+                )
+                .join("");
+              html += `</div></div>`;
+            }
+
+            if (data.map_url) {
+              html += `<div class="text-center mt-3">
+          <iframe src="${data.map_url}" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>`;
+            }
+
+            html += `</div></div>`;
+
+            content.innerHTML = html;
+          });
+      }
+
+      function normalizeKey(str) {
+        return str
+          .normalize("NFD") // tách dấu
+          .replace(/[\u0300-\u036f]/g, "") // xóa dấu
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s]/g, "") // xóa ký tự đặc biệt
+          .replace(/\s+/g, "_"); // thay khoảng trắng bằng _
+      }
+    </script>
+  </body>
+</html>
