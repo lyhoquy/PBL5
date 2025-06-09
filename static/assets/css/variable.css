@@ -1,0 +1,109 @@
+/* ===== CSS VARIABLES & THEME CONFIGURATION ===== */
+:root {
+  /* Primary Colors */
+  --primary-color: #d4a574;
+  --secondary-color: #8b4513;
+  --accent-color: #ff6b6b;
+  --success-color: #51cf66;
+
+  /* Background Colors */
+  --background-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --card-background: #ffffff;
+  --overlay-background: rgba(0, 0, 0, 0.5);
+
+  /* Text Colors */
+  --text-primary: #2c3e50;
+  --text-secondary: #7f8c8d;
+  --text-muted: #95a5a6;
+  --text-light: #ffffff;
+
+  /* Border & Shadow */
+  --border-radius: 15px;
+  --border-radius-large: 30px;
+  --card-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  --card-shadow-hover: 0 25px 50px rgba(0, 0, 0, 0.15);
+  --button-shadow: 0 15px 30px rgba(212, 165, 116, 0.4);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Typography */
+  --font-primary: "Inter", sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.5rem;
+  --font-size-5xl: 3rem;
+  --font-size-hero: 4rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Z-index */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  --z-toast: 1080;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  --gradient-accent: linear-gradient(
+    135deg,
+    var(--accent-color),
+    var(--primary-color)
+  );
+  --gradient-success: linear-gradient(135deg, var(--success-color), #40c057);
+  --gradient-hero: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  --gradient-card: linear-gradient(
+    135deg,
+    rgba(212, 165, 116, 0.05),
+    rgba(139, 69, 19, 0.05)
+  );
+
+  /* Animation durations */
+  --animation-fast: 0.15s;
+  --animation-normal: 0.3s;
+  --animation-slow: 0.6s;
+  --animation-very-slow: 1.2s;
+}
+
+/* Dark theme variables (for future use) */
+[data-theme="dark"] {
+  --card-background: #2c3e50;
+  --text-primary: #ecf0f1;
+  --text-secondary: #bdc3c7;
+  --text-muted: #7f8c8d;
+  --background-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  --card-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* High contrast theme (accessibility) */
+[data-theme="high-contrast"] {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --accent-color: #ff0000;
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --card-background: #ffffff;
+  --border-radius: 5px;
+  --border-radius-large: 10px;
+}

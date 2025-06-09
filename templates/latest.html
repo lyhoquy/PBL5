@@ -16,6 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
     <style>
       :root {
         --primary-color: #d4a574;
@@ -576,6 +579,28 @@
         padding: 2rem;
         border-radius: 15px;
       }
+      .info.legend {
+        background: white;
+        padding: 8px 12px;
+        font-size: 13px;
+        line-height: 1.5;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+      }
+      .map-loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background: #f8f9fa;
+        border-radius: 15px;
+        flex-direction: column;
+      }
+
+      #vietnamMap {
+        min-height: 500px !important;
+        z-index: 1;
+      }
     </style>
   </head>
   <body>
@@ -811,10 +836,16 @@
               </h3>
 
               <div id="travelContent">
-                <div class="text-center text-muted">
-                  <i class="fas fa-spinner fa-spin fa-2x mb-3"></i>
-                  <p>Đang tải thông tin...</p>
-                </div>
+                <h4 id="regionTitle" class="text-primary mb-2"></h4>
+                <p id="regionDescription" class="mb-3 text-muted"></p>
+                <div
+                  id="vietnamMap"
+                  style="
+                    height: 500px;
+                    border-radius: 15px;
+                    box-shadow: var(--card-shadow);
+                  "
+                ></div>
               </div>
             </div>
           </div>
@@ -824,6 +855,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+      window.latestTravelRegion = null;
+      window.latestTravelLandmarks = [];
+      window.pendingTravelRender = null;
+
       let selectedImage = null;
 
       // Initialize page
@@ -956,6 +991,9 @@
             document.getElementById("loadingSpinner").style.display = "none";
             document.getElementById("analyzeBtn").disabled = false;
 
+            const normalizedKey = normalizeKey(data.best_prediction);
+            window.latestPredictionKey = normalizedKey;
+
             if (data.status === "success") {
               const normalizedKey = normalizeKey(data.best_prediction);
               displayResults(data);
@@ -1037,6 +1075,9 @@
               .then((data) => {
                 document.getElementById("loadingSpinner").style.display =
                   "none";
+
+                const normalizedKey = normalizeKey(data.best_prediction);
+                window.latestPredictionKey = normalizedKey;
 
                 if (data.status === "success") {
                   const normalizedKey = normalizeKey(data.best_prediction);
@@ -1250,60 +1291,154 @@
       }
 
       function displayTravel(key) {
+        console.log("Hiển thị thông tin du lịch với key:", key);
+
+        const mapContainer = document.getElementById("vietnamMap");
+        if (!mapContainer) return;
+
+        // Hiện loading spinner
+        mapContainer.innerHTML = `
+    <div class="map-loading">
+      <div class="spinner-border text-primary" role="status"></div>
+      <p class="mt-3">Đang tải bản đồ vùng miền...</p>
+    </div>
+  `;
+
         fetch("/static/destinations.json")
           .then((res) => res.json())
-          .then((places) => {
-            const data = places[key];
-            const content = document.getElementById("travelContent");
-
-            if (!data) {
-              content.innerHTML = `<div class="text-center text-muted">
-          <i class="fas fa-map-marked-alt fa-3x mb-3"></i>
-          <p>Không có thông tin vùng miền cho món ăn này</p>
+          .then((destinations) => {
+            const travelInfo = destinations[key];
+            if (!travelInfo) {
+              mapContainer.innerHTML = `<div class="text-danger text-center p-4">
+          <i class="fas fa-exclamation-triangle fa-2x mb-2"></i><br>
+          Không tìm thấy thông tin địa danh phù hợp.
         </div>`;
               return;
             }
 
-            let html = `<div class="destination-card">
-        <div class="destination-header">
-          <h5 class="mb-1">
-            <i class="fas fa-map-marker-alt me-2"></i> ${data.region}
-          </h5>
-          <span class="region-badge">Vùng miền đặc trưng</span>
-        </div>
-        <div class="p-4">
-          <div class="mb-3">
-            <h6><i class="fas fa-info-circle text-primary me-2"></i>Mô tả:</h6>
-            <p class="text-muted">${data.description}</p>
-          </div>`;
+            // Hiển thị tên vùng + mô tả
+            document.getElementById(
+              "regionTitle"
+            ).innerText = `Khám phá vùng miền: ${travelInfo.region}`;
+            document.getElementById("regionDescription").innerText =
+              travelInfo.description;
 
-            if (data.landmarks && data.landmarks.length) {
-              html += `<div class="mb-3">
-          <h6><i class="fas fa-landmark text-warning me-2"></i>Địa điểm nổi bật:</h6>
-          <div class="row">`;
-              html += data.landmarks
-                .map(
-                  (place) =>
-                    `<div class="col-md-6 mb-2">
-                <div class="landmark-item">
-                  <i class="fas fa-map-pin text-danger me-2"></i> ${place}
-                </div>
-              </div>`
-                )
-                .join("");
-              html += `</div></div>`;
+            // Nếu tab travel chưa active, hoãn map render
+            const travelTabPane = document.getElementById("travel");
+            if (!travelTabPane.classList.contains("active")) {
+              window.pendingTravelRender = {
+                region: travelInfo.region,
+                landmarks: travelInfo.landmarks || [],
+              };
+            } else {
+              initVietnamMap(travelInfo.region, travelInfo.landmarks);
             }
 
-            if (data.map_url) {
-              html += `<div class="text-center mt-3">
-          <iframe src="${data.map_url}" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>`;
-            }
-
-            html += `</div></div>`;
-
-            content.innerHTML = html;
+            // Ghi nhớ
+            window.latestTravelRegion = travelInfo.region;
+            window.latestTravelLandmarks = travelInfo.landmarks || [];
+          })
+          .catch((err) => {
+            console.error("Lỗi khi tải thông tin địa danh:", err);
+            mapContainer.innerHTML = `<div class="text-danger text-center p-4">
+        <i class="fas fa-exclamation-triangle fa-2x mb-2"></i><br>
+        Không thể tải dữ liệu bản đồ.
+      </div>`;
           });
+      }
+
+      function initVietnamMap(regionName, landmarks) {
+        const mapContainer = document.getElementById("vietnamMap");
+        if (!mapContainer) return;
+
+        // Xóa map cũ nếu có
+        if (window.vietnamMap) {
+          window.vietnamMap.remove();
+        }
+
+        // Reset nội dung và tạo khung chứa bản đồ mới
+        mapContainer.innerHTML = "";
+        const mapDiv = document.createElement("div");
+        mapDiv.id = "vietnamMapInternal";
+        mapDiv.style.height = "500px";
+        mapDiv.style.borderRadius = "15px";
+        mapContainer.appendChild(mapDiv);
+
+        // Khởi tạo Leaflet map
+        const center = [16.047079, 108.20623];
+        const map = L.map("vietnamMapInternal").setView(center, 6);
+        window.vietnamMap = map;
+
+        // Layer map
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 18,
+          attribution: "© OpenStreetMap",
+          errorTileUrl:
+            "data:image/svg+xml;base64," +
+            btoa(
+              `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"><rect width="256" height="256" fill="#eee"/><text x="50%" y="50%" text-anchor="middle" fill="#999" font-size="18" dy=".3em">Lỗi bản đồ</text></svg>`
+            ),
+        }).addTo(map);
+
+        // Định vị vùng miền chính
+        fetch(
+          `https://nominatim.openstreetmap.org/search?format=json&q=${regionName}, Vietnam`
+        )
+          .then((res) => res.json())
+          .then((results) => {
+            if (results.length > 0) {
+              const { lat, lon } = results[0];
+              const latNum = parseFloat(lat);
+              const lonNum = parseFloat(lon);
+              L.circle([latNum, lonNum], {
+                color: "red",
+                fillColor: "#f03",
+                fillOpacity: 0.3,
+                radius: 20000,
+              })
+                .addTo(map)
+                .bindPopup(`Vùng đặc trưng: ${regionName}`);
+              map.setView([latNum, lonNum], 8);
+            }
+          })
+          .catch((err) => console.warn("Không thể định vị vùng miền:", err));
+
+        // Marker các địa danh
+        landmarks.forEach((name) => {
+          fetch(
+            `https://nominatim.openstreetmap.org/search?format=json&q=${name}, Vietnam`
+          )
+            .then((res) => res.json())
+            .then((results) => {
+              if (results.length > 0) {
+                const { lat, lon } = results[0];
+                L.marker([parseFloat(lat), parseFloat(lon)])
+                  .addTo(map)
+                  .bindPopup(name);
+              }
+            })
+            .catch((err) =>
+              console.warn("Lỗi khi định vị địa danh:", name, err)
+            );
+        });
+
+        // Thêm legend
+        const legend = L.control({ position: "bottomright" });
+        legend.onAdd = function () {
+          const div = L.DomUtil.create("div", "info legend");
+          div.innerHTML = `
+      <h6 class="mb-1">Chú thích</h6>
+      <div><span style="background:red;display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:5px;"></span> Vùng đặc trưng</div>
+      <div><i class="fas fa-map-marker-alt text-primary me-2"></i> Địa danh nổi bật</div>
+    `;
+          return div;
+        };
+        legend.addTo(map);
+
+        // Đảm bảo map hiển thị đúng kích thước
+        setTimeout(() => {
+          map.invalidateSize();
+        }, 300);
       }
 
       function normalizeKey(str) {
@@ -1315,6 +1450,23 @@
           .replace(/[^\w\s]/g, "") // xóa ký tự đặc biệt
           .replace(/\s+/g, "_"); // thay khoảng trắng bằng _
       }
+
+      document
+        .getElementById("travel-tab")
+        .addEventListener("shown.bs.tab", function () {
+          if (window.pendingTravelRender) {
+            const { region, landmarks } = window.pendingTravelRender;
+            initVietnamMap(region, landmarks);
+            window.latestTravelRegion = region;
+            window.latestTravelLandmarks = landmarks;
+            window.pendingTravelRender = null;
+          } else if (window.latestTravelRegion) {
+            initVietnamMap(
+              window.latestTravelRegion,
+              window.latestTravelLandmarks
+            );
+          }
+        });
     </script>
   </body>
 </html>

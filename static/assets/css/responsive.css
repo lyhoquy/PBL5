@@ -1,0 +1,33 @@
+/* ===== RESPONSIVE STYLES ===== */
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .nav-tabs .nav-link {
+    padding: 0.75rem 1rem;
+    margin: 0.25rem;
+    font-size: var(--font-size-sm);
+  }
+
+  .tab-content {
+    padding: var(--spacing-md);
+  }
+
+  .prediction-card {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-tabs .nav-link {
+    padding: 0.75rem 1rem;
+    margin: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .tab-content {
+    padding: 1rem;
+  }
+}

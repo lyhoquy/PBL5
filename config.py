@@ -11,11 +11,11 @@ MODEL_PATHS = {
     'model2': os.path.join(BASE_DIR, 'models/DenseNet169.h5')
 }
 
-CLASS_NAMES_PATH = os.path.join(BASE_DIR, 'static/class_names.txt')
-RECIPES_PATH = os.path.join(BASE_DIR, 'static/recipes.json')
-DESTINATIONS_PATH = os.path.join(BASE_DIR, 'static/destinations.json')
+CLASS_NAMES_PATH = os.path.join(BASE_DIR, 'static/assets/data/class_names.txt')
+RECIPES_PATH = os.path.join(BASE_DIR, 'static/assets/data/recipes.json')
+DESTINATIONS_PATH = os.path.join(BASE_DIR, 'static/assets/data/destinations.json')
 
 IMG_SIZE = 224
 
-HOST = '192.168.1.102'
+HOST = '10.10.58.201'
 PORT = 5000

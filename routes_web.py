@@ -13,7 +13,7 @@ def setup_web_context(models, class_names, destinations):
 
 @web_bp.route('/')
 def index():
-    return render_template('latest.html', active_tab='home')
+    return render_template('index.html', active_tab='home')
 
 @web_bp.route('/predict_pi_image')
 def predict_pi_image():
