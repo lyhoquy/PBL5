@@ -288,3 +288,26 @@ a:focus {
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+/* Use CSS containment for better performance */
+.prediction-card,
+.recipe-card,
+.travel-card {
+  contain: content;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Use hardware acceleration for animations */
+.animated-element {
+  transform: translateZ(0);
+  will-change: transform;
+}

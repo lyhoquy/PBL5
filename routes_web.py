@@ -1,9 +1,12 @@
-from flask import Blueprint, render_template, url_for
-from config import TEMP_IMAGE_PATH
+from flask import Blueprint, render_template, url_for, json, redirect
+from config import TEMP_IMAGE_PATH, DESTINATIONS_PATH
 import os
-from utils import preprocess_image_for_prediction, find_recipe
+from utils import preprocess_image_for_prediction, find_recipe, normalize_key
+from esp_status import update_status
+from pi_bridge import capture_image_from_pi
 
 web_bp = Blueprint('web', __name__)
+
 
 def setup_web_context(models, class_names, destinations):
     global model1, model2, class_labels, dests
@@ -14,6 +17,15 @@ def setup_web_context(models, class_names, destinations):
 @web_bp.route('/')
 def index():
     return render_template('index.html', active_tab='home')
+
+@web_bp.route('/capture_from_pi', methods=['POST'])
+def capture_from_pi():
+    result = capture_image_from_pi()
+    if result.get("success"):
+        return redirect(url_for("web.predict_pi_image"))
+    else:
+        return render_template("test.html", active_tab="predict", error="Pi capture failed")
+
 
 @web_bp.route('/predict_pi_image')
 def predict_pi_image():
@@ -68,7 +80,14 @@ def predict_pi_image():
     normalized = normalize_key(best_prediction) if best_prediction else ''
 
     destination_info = dests.get(normalized, {})
-
+    try:
+        with open(DESTINATIONS_PATH, 'r', encoding='utf-8') as f:
+            destinations = json.load(f)
+        normalized = normalize_key(best_prediction) if best_prediction else ''
+        region = destinations.get(normalized, {}).get("region", "")
+    except:
+        pass
+    update_status(status="recipe", dish=best_prediction, region=region)
     return render_template(
         'test.html',
         active_tab='results',

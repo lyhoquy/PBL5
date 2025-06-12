@@ -114,3 +114,4 @@ function shareRecipe() {
     alert("Đã copy link chia sẻ!");
   }
 }
+export { displayRecipe, printRecipe, shareRecipe };

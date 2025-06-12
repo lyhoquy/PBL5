@@ -9,6 +9,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from tensorflow.keras.preprocessing import image
 from config import IMG_SIZE, RECIPES_PATH
+from PIL import Image
+import io
 
 
 def preprocess_image_for_prediction(image_path):
@@ -68,3 +70,21 @@ def find_recipe(dish_name, recipes_path='RECIPES_PATH'):
     except Exception as e:
         print(f"[ERROR] Recipe lookup failed: {e}")
         return None
+
+def optimize_image(image_file):
+    """Optimize uploaded images before processing"""
+    img = Image.open(image_file)
+    
+    # Convert to RGB if needed
+    if img.mode in ('RGBA', 'P'):
+        img = img.convert('RGB')
+    
+    # Resize if too large
+    max_size = 800
+    if max(img.size) > max_size:
+        img.thumbnail((max_size, max_size), Image.LANCZOS)
+    
+    # Optimize
+    buffer = io.BytesIO()
+    img.save(buffer, format='JPEG', optimize=True, quality=85)
+    return buffer.getvalue()

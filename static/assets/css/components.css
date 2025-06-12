@@ -77,6 +77,7 @@
   min-height: calc(100vh - 40vh);
 }
 
+/* Gộp thành 1 */
 .nav-tabs {
   border: none;
   background: transparent;
@@ -95,22 +96,6 @@
   transition: all var(--transition-normal);
   position: relative;
   overflow: hidden;
-}
-
-.nav-tabs .nav-link:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
-  transition: left var(--transition-slow);
 }
 
 .nav-tabs .nav-link:hover:before {
@@ -300,4 +285,61 @@
 .step-number {
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+.upload-zone.drag-over {
+  background: var(--gradient-accent);
+  border-color: var(--secondary-color);
+  transform: scale(1.03);
+}
+
+.prediction-image {
+  display: block;
+  margin: 0 auto; /* căn giữa */
+  max-width: 100%;
+  max-height: 300px; /* giới hạn chiều cao */
+  border-radius: 12px;
+  object-fit: contain; /* ảnh không bị bóp méo */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#travelContent {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#vietnamMapInternal {
+  height: 550px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#vietnamMapInternal:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-control-container .map-legend {
+  font-size: 14px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.4;
+}
+
+.leaflet-control-container .map-legend h6 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.leaflet-control-container .map-legend small {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  #vietnamMapInternal {
+    height: 400px;
+  }
 }
