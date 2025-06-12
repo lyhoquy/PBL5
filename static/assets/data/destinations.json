@@ -2,181 +2,388 @@
   "pho": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "banh_beo": {
     "region": "Huế",
     "description": "Cố đô Huế với vẻ đẹp cổ kính, nổi bật với Đại Nội, lăng tẩm triều Nguyễn và dòng sông Hương thơ mộng.",
-    "landmarks": ["Kinh thành Huế", "Sông Hương", "Cầu Trường Tiền"],
+    "landmarks": [
+      "Kinh thành Huế",
+      "Sông Hương",
+      "Cầu Trường Tiền",
+      "Chùa Thiên Mụ",
+      "Lăng Tự Đức",
+      "Lăng Minh Mạng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.013523911122!2d107.578107!3d16.4637136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13cf1b62a3d%3A0x454b0ed35b68cf0a!2sHue!5e0!3m2!1sen!2s!4v1717837422222"
   },
   "banh_bot_loc": {
     "region": "Huế",
     "description": "Cố đô Huế với vẻ đẹp cổ kính, nổi bật với Đại Nội, lăng tẩm triều Nguyễn và dòng sông Hương thơ mộng.",
-    "landmarks": ["Kinh thành Huế", "Sông Hương", "Cầu Trường Tiền"],
+    "landmarks": [
+      "Kinh thành Huế",
+      "Sông Hương",
+      "Cầu Trường Tiền",
+      "Chùa Thiên Mụ",
+      "Lăng Tự Đức",
+      "Lăng Minh Mạng",
+      "Chợ Đông Ba"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.013523911122!2d107.578107!3d16.4637136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13cf1b62a3d%3A0x454b0ed35b68cf0a!2sHue!5e0!3m2!1sen!2s!4v1717837422222"
   },
   "banh_can": {
     "region": "Ninh Thuận",
     "description": "Ninh Thuận – miền đất nắng gió với văn hóa Chăm đặc sắc, nổi bật với Tháp Chàm và vườn nho.",
-    "landmarks": ["Tháp Pôklông Garai", "Làng gốm Bàu Trúc"],
+    "landmarks": [
+      "Tháp Pôklông Garai",
+      "Làng gốm Bàu Trúc",
+      "Vườn nho Thái An",
+      "Bãi biển Ninh Chữ",
+      "Vườn quốc gia Núi Chúa"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.1007507612264!2d108.9999367!3d11.565117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170d61a179caddf%3A0x72d4f60b95b5f0db!2sNinh%20Thu%E1%BA%ADn%2C%20Vietnam!5e0!3m2!1sen!2s!4v1717819123456"
   },
   "banh_canh": {
     "region": "Quảng Trị",
     "description": "Quảng Trị – vùng đất lịch sử miền Trung với các địa danh gắn liền kháng chiến và văn hóa địa phương.",
-    "landmarks": ["Cầu Hiền Lương", "Thành cổ Quảng Trị"],
+    "landmarks": [
+      "Cầu Hiền Lương",
+      "Thành cổ Quảng Trị",
+      "Địa đạo Vịnh Mốc",
+      "Bãi biển Cửa Tùng",
+      "Bãi biển Cửa Việt"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.4488054351656!2d107.103447!3d16.7442036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141e66c9f92a9e3%3A0xc01b4a8f7771e631!2sQu%E1%BA%A3ng%20Tr%E1%BB%8B%2C%20Vietnam!5e0!3m2!1sen!2s!4v1717819171234"
   },
   "banh_chung": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "banh_cuon": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "banh_duc": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "banh_gio": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "banh_khot": {
     "region": "Vũng Tàu",
     "description": "Vũng Tàu – thành phố biển miền Đông Nam Bộ, hấp dẫn với bãi biển đẹp và ẩm thực hải sản phong phú.",
-    "landmarks": ["Bãi Sau", "Tượng Chúa Kitô Vua"],
+    "landmarks": [
+      "Bãi Sau",
+      "Tượng Chúa Kitô Vua",
+      "Ngọn hải đăng Vũng Tàu",
+      "Bãi Trước",
+      "Chùa Thích Ca Phật Đài"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6708317839085!2d107.0818903!3d10.3459878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175793ed9ac96e3%3A0xc08fe4d8dbfe35cf!2zVsawxqFuZyBUw6B1LCBWaeG7h3QgTmFt!5e0!3m2!1sen!2s!4v1717837519000"
   },
   "banh_mi": {
     "region": "TP.HCM",
     "description": "Thành phố Hồ Chí Minh – đô thị hiện đại, sôi động với sự pha trộn của lịch sử, văn hóa và nhịp sống trẻ trung.",
-    "landmarks": ["Chợ Bến Thành", "Nhà thờ Đức Bà", "Phố đi bộ Nguyễn Huệ"],
+    "landmarks": [
+      "Chợ Bến Thành",
+      "Nhà thờ Đức Bà",
+      "Phố đi bộ Nguyễn Huệ",
+      "Bảo tàng Chứng tích Chiến tranh",
+      "Dinh Độc Lập",
+      "Chùa Ngọc Hoàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502755117242!2d106.700424!3d10.7768876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1968c0a6ed%3A0x9ed0e38c763b0c77!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1717837446000"
   },
   "banh_pia": {
     "region": "Sóc Trăng",
     "description": "Sóc Trăng – vùng đất giao thoa văn hóa Kinh – Hoa – Khmer với nhiều ngôi chùa nổi tiếng và món bánh Pía đặc trưng.",
-    "landmarks": ["Chùa Dơi", "Chùa Đất Sét"],
+    "landmarks": [
+      "Chùa Dơi",
+      "Chùa Đất Sét",
+      "Chùa Kh'leang",
+      "Chợ nổi Ngã Năm",
+      "Bãi biển Hồ Bể"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.8223957608364!2d105.9789499!3d9.6025214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a01b31371e2c4d%3A0x6f6f332309f6e84b!2zU8O0YyBUcsOhbmcsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1717837533000"
   },
   "banh_tet": {
     "region": "Cần Thơ",
     "description": "Cần Thơ – trung tâm của miền Tây sông nước, nổi tiếng với chợ nổi Cái Răng và những miệt vườn trù phú.",
-    "landmarks": ["Chợ nổi Cái Răng", "Bến Ninh Kiều"],
+    "landmarks": [
+      "Chợ nổi Cái Răng",
+      "Bến Ninh Kiều",
+      "Vườn trái cây Mỹ Khánh",
+      "Chùa Nam Nhã",
+      "Nhà cổ Bình Thủy"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.687407988362!2d105.754451!3d10.0349652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087279cfccf3d%3A0x8b2e6f9b56ac418f!2sCan%20Tho!5e0!3m2!1sen!2s!4v1717837467000"
   },
   "banh_trang_nuong": {
     "region": "Đà Lạt",
     "description": "Đà Lạt – thành phố ngàn hoa, nổi bật với khí hậu mát mẻ, rừng thông và kiến trúc Pháp lãng mạn.",
-    "landmarks": ["Hồ Xuân Hương", "Chợ Đà Lạt"],
+    "landmarks": [
+      "Hồ Xuân Hương",
+      "Chợ Đà Lạt",
+      "Nhà thờ Con Gà",
+      "Dinh Bảo Đại",
+      "Thung lũng Tình Yêu",
+      "Vườn hoa Thành phố"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.478356225748!2d108.4414794!3d11.9404194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317113f30b8d8b7b%3A0x3b810c68897f1922!2zRMOhIEzDoXQsIExhbSBEw6xuaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1717837488000"
   },
   "banh_xeo": {
     "region": "TP.HCM",
     "description": "Thành phố Hồ Chí Minh – đô thị hiện đại, sôi động với sự pha trộn của lịch sử, văn hóa và nhịp sống trẻ trung.",
-    "landmarks": ["Chợ Bến Thành", "Nhà thờ Đức Bà", "Phố đi bộ Nguyễn Huệ"],
+    "landmarks": [
+      "Chợ Bến Thành",
+      "Nhà thờ Đức Bà",
+      "Phố đi bộ Nguyễn Huệ",
+      "Bảo tàng Chứng tích Chiến tranh",
+      "Dinh Độc Lập",
+      "Chùa Ngọc Hoàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502755117242!2d106.700424!3d10.7768876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1968c0a6ed%3A0x9ed0e38c763b0c77!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1717837446000"
   },
   "bun_bo_hue": {
     "region": "Huế",
     "description": "Cố đô Huế với vẻ đẹp cổ kính, nổi bật với Đại Nội, lăng tẩm triều Nguyễn và dòng sông Hương thơ mộng.",
-    "landmarks": ["Kinh thành Huế", "Sông Hương", "Cầu Trường Tiền"],
+    "landmarks": [
+      "Kinh thành Huế",
+      "Sông Hương",
+      "Cầu Trường Tiền",
+      "Chùa Thiên Mụ",
+      "Lăng Tự Đức",
+      "Lăng Minh Mạng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.013523911122!2d107.578107!3d16.4637136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a13cf1b62a3d%3A0x454b0ed35b68cf0a!2sHue!5e0!3m2!1sen!2s!4v1717837422222"
   },
   "bun_dau_mam_tom": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "bun_mam": {
     "region": "Cần Thơ",
     "description": "Cần Thơ – trung tâm của miền Tây sông nước, nổi tiếng với chợ nổi Cái Răng và những miệt vườn trù phú.",
-    "landmarks": ["Chợ nổi Cái Răng", "Bến Ninh Kiều"],
+    "landmarks": [
+      "Chợ nổi Cái Răng",
+      "Bến Ninh Kiều",
+      "Vườn trái cây Mỹ Khánh",
+      "Chùa Nam Nhã",
+      "Nhà cổ Bình Thủy"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.687407988362!2d105.754451!3d10.0349652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087279cfccf3d%3A0x8b2e6f9b56ac418f!2sCan%20Tho!5e0!3m2!1sen!2s!4v1717837467000"
   },
   "bun_rieu": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   },
   "bun_thit_nuong": {
     "region": "TP.HCM",
     "description": "Thành phố Hồ Chí Minh – đô thị hiện đại, sôi động với sự pha trộn của lịch sử, văn hóa và nhịp sống trẻ trung.",
-    "landmarks": ["Chợ Bến Thành", "Nhà thờ Đức Bà", "Phố đi bộ Nguyễn Huệ"],
+    "landmarks": [
+      "Chợ Bến Thành",
+      "Nhà thờ Đức Bà",
+      "Phố đi bộ Nguyễn Huệ",
+      "Bảo tàng Chứng tích Chiến tranh",
+      "Dinh Độc Lập",
+      "Chùa Ngọc Hoàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502755117242!2d106.700424!3d10.7768876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1968c0a6ed%3A0x9ed0e38c763b0c77!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1717837446000"
   },
   "ca_kho_to": {
     "region": "Vĩnh Long",
     "description": "Vĩnh Long – miền quê sông nước trù phú, nổi tiếng với chợ nổi, vườn trái cây và ẩm thực dân dã.",
-    "landmarks": ["Cù lao An Bình", "Chợ nổi Trà Ôn"],
+    "landmarks": [
+      "Cù lao An Bình",
+      "Chợ nổi Trà Ôn",
+      "Vườn trái cây Vĩnh Long",
+      "Chùa Phước Hậu",
+      "Bến phà An Bình"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.3699734962507!2d106.0025102!3d10.2543901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0ff55553d89ef%3A0x2f0e1268a5405a6c!2zVsSpbmggTG9uZywgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1717837577000"
   },
   "canh_chua": {
     "region": "Cần Thơ",
     "description": "Cần Thơ – trung tâm của miền Tây sông nước, nổi tiếng với chợ nổi Cái Răng và những miệt vườn trù phú.",
-    "landmarks": ["Chợ nổi Cái Răng", "Bến Ninh Kiều"],
+    "landmarks": [
+      "Chợ nổi Cái Răng",
+      "Bến Ninh Kiều",
+      "Vườn trái cây Mỹ Khánh",
+      "Chùa Nam Nhã",
+      "Nhà cổ Bình Thủy"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.687407988362!2d105.754451!3d10.0349652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087279cfccf3d%3A0x8b2e6f9b56ac418f!2sCan%20Tho!5e0!3m2!1sen!2s!4v1717837467000"
   },
   "cao_lau": {
     "region": "Hội An",
     "description": "Phố cổ Hội An là Di sản Thế giới, nơi lưu giữ kiến trúc, văn hóa và ẩm thực truyền thống Hội nhập Đông - Tây.",
-    "landmarks": ["Chùa Cầu", "Phố cổ", "Sông Hoài"],
+    "landmarks": [
+      "Chùa Cầu",
+      "Phố cổ",
+      "Sông Hoài",
+      "Nhà cổ Phùng Hưng",
+      "Chùa Ông",
+      "Bảo tàng Văn hóa Hội An"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3832.153259865894!2d108.327565!3d15.8800586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314210896d40567b%3A0x2b4d1b9ffb6792fd!2sHoi%20An!5e0!3m2!1sen!2s!4v1717837435000"
   },
   "chao_long": {
     "region": "Nam Định",
     "description": "Nam Định – vùng đất văn hóa với nhiều làng nghề truyền thống và các lễ hội dân gian nổi bật.",
-    "landmarks": ["Đền Trần", "Chùa Cổ Lễ"],
+    "landmarks": [
+      "Đền Trần",
+      "Chùa Cổ Lễ",
+      "Nhà thờ lớn Nam Định",
+      "Bảo tàng Nam Định",
+      "Làng nghề gốm Bát Tràng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.424789155689!2d106.1602526!3d20.4376544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aa35a8a4476f%3A0xf22b0ddcb4032cf4!2zTmFtIMSQ4bqldGgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1717837556000"
   },
   "com_tam": {
     "region": "TP.HCM",
     "description": "Thành phố Hồ Chí Minh – đô thị hiện đại, sôi động với sự pha trộn của lịch sử, văn hóa và nhịp sống trẻ trung.",
-    "landmarks": ["Chợ Bến Thành", "Nhà thờ Đức Bà", "Phố đi bộ Nguyễn Huệ"],
+    "landmarks": [
+      "Chợ Bến Thành",
+      "Nhà thờ Đức Bà",
+      "Phố đi bộ Nguyễn Huệ",
+      "Bảo tàng Chứng tích Chiến tranh",
+      "Dinh Độc Lập",
+      "Chùa Ngọc Hoàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502755117242!2d106.700424!3d10.7768876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1968c0a6ed%3A0x9ed0e38c763b0c77!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1717837446000"
   },
   "goi_cuon": {
     "region": "TP.HCM",
     "description": "Thành phố Hồ Chí Minh – đô thị hiện đại, sôi động với sự pha trộn của lịch sử, văn hóa và nhịp sống trẻ trung.",
-    "landmarks": ["Chợ Bến Thành", "Nhà thờ Đức Bà", "Phố đi bộ Nguyễn Huệ"],
+    "landmarks": [
+      "Chợ Bến Thành",
+      "Nhà thờ Đức Bà",
+      "Phố đi bộ Nguyễn Huệ",
+      "Bảo tàng Chứng tích Chiến tranh",
+      "Dinh Độc Lập",
+      "Chùa Ngọc Hoàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502755117242!2d106.700424!3d10.7768876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1968c0a6ed%3A0x9ed0e38c763b0c77!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1717837446000"
   },
   "hu_tieu": {
     "region": "Cần Thơ",
     "description": "Cần Thơ – trung tâm của miền Tây sông nước, nổi tiếng với chợ nổi Cái Răng và những miệt vườn trù phú.",
-    "landmarks": ["Chợ nổi Cái Răng", "Bến Ninh Kiều"],
+    "landmarks": [
+      "Chợ nổi Cái Răng",
+      "Bến Ninh Kiều",
+      "Vườn trái cây Mỹ Khánh",
+      "Chùa Nam Nhã",
+      "Nhà cổ Bình Thủy"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.687407988362!2d105.754451!3d10.0349652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087279cfccf3d%3A0x8b2e6f9b56ac418f!2sCan%20Tho!5e0!3m2!1sen!2s!4v1717837467000"
   },
   "mi_quang": {
     "region": "Quảng Nam",
     "description": "Quảng Nam nổi bật với di tích Mỹ Sơn và các làng nghề truyền thống miền Trung Việt Nam.",
-    "landmarks": ["Thánh địa Mỹ Sơn", "Làng gốm Thanh Hà"],
+    "landmarks": [
+      "Thánh địa Mỹ Sơn",
+      "Làng gốm Thanh Hà",
+      "Chùa Cầu Hội An",
+      "Phố cổ Hội An",
+      "Bãi biển An Bàng"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.782050708808!2d108.1434769!3d15.5744101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420dd4dc212d27%3A0x90f9c6404e162c90!2zUXVhbmcgTmFtLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1717837598000"
   },
   "nem_chua": {
     "region": "Thanh Hóa",
     "description": "Thanh Hóa – vùng đất địa linh nhân kiệt, nổi bật với Thành Nhà Hồ và biển Sầm Sơn.",
-    "landmarks": ["Thành Nhà Hồ", "Biển Sầm Sơn"],
+    "landmarks": [
+      "Thành Nhà Hồ",
+      "Biển Sầm Sơn",
+      "Chùa Hương Tích",
+      "Đền Độc Cước",
+      "Vườn quốc gia Bến En"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3727.474387107732!2d105.7705817!3d20.8364094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136fdd6e32a9ed5%3A0x5a6dd70a3aa8efc2!2zVGhhbmggSG9hLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1717837545000"
   },
   "xoi_xeo": {
     "region": "Hà Nội",
     "description": "Thủ đô ngàn năm văn hiến, với các công trình kiến trúc cổ kính, hồ nước, và văn hóa ẩm thực đặc sắc Bắc Bộ.",
-    "landmarks": ["Hồ Gươm", "Văn Miếu", "Phố cổ", "Chùa Một Cột"],
+    "landmarks": [
+      "Hồ Gươm",
+      "Văn Miếu",
+      "Phố cổ",
+      "Chùa Một Cột",
+      "Chợ Đồng Xuân",
+      "Nhà thờ Lớn",
+      "Lăng Bác"
+    ],
     "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.032314323963!2d105.8411702153325!3d21.028511093147295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7b0acdfdb5%3A0x7a7fb3d385f0f706!2sHanoi!5e0!3m2!1sen!2s!4v1717837400000"
   }
 }

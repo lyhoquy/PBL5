@@ -399,19 +399,11 @@ const TravelManager = {
 
   // Geocoding with proper error handling and rate limiting
   async geocodeLocation(query) {
-    const encodedQuery = encodeURIComponent(query);
-    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodedQuery}&limit=1`;
-
-    const response = await fetch(url, {
-      headers: {
-        "User-Agent": "VietnamFoodApp/1.0",
-      },
-    });
-
+    const encoded = encodeURIComponent(query);
+    const response = await fetch(`/proxy/geocode?q=${encoded}`);
     if (!response.ok) {
-      throw new Error(`Geocoding failed: ${response.status}`);
+      throw new Error(`Proxy geocode failed: ${response.status}`);
     }
-
     return response.json();
   },
 
@@ -536,3 +528,5 @@ window.displayTravel = (key) => TravelManager.displayTravel(key);
 window.initVietnamMap = (region, landmarks) =>
   TravelManager.initVietnamMap(region, landmarks);
 window.isMapReady = () => TravelManager.isMapReady();
+
+export { TravelManager };

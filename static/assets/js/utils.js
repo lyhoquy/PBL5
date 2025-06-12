@@ -18,3 +18,4 @@ function throttle(fn, limit) {
     }
   };
 }
+export { debounce, throttle };

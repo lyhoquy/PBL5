@@ -16,3 +16,4 @@ function postFormData(url, formData) {
     return res.json();
   });
 }
+export { fetchJSON, postFormData };

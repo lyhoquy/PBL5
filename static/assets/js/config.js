@@ -3,7 +3,9 @@
  * Centralized configuration for the Vietnamese Food Guide application
  */
 // Application constants
-const APP_CONFIG = {
+export const APP_CONFIG = {
+  PI_BASE_URL: "http://192.168.1.109:8080",
+
   // API endpoints
   API: {
     UPLOAD_PREDICT: "/api/upload_and_predict",

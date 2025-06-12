@@ -1,192 +1,211 @@
-// ===== IMAGE PREDICTION LOGIC =====
+// ===== PREDICTION LOGIC =====
+import { resetUpload } from "./ui.js";
+import { APP_CONFIG } from "./config.js";
+import { displayRecipe } from "./recipe.js";
+import { TravelManager } from "./travel.js";
 
-let selectedImage = null;
+// Global selected image
+window.selectedImage = null;
 
-function setupFileUpload() {
-  const fileInput = document.getElementById("fileInput");
-  const uploadZone = document.getElementById("uploadZone");
-  const analyzeBtn = document.getElementById("analyzeBtn");
-
-  uploadZone.addEventListener("dragover", function (e) {
-    e.preventDefault();
-    uploadZone.style.borderColor = "#ff6b6b";
-    uploadZone.style.backgroundColor = "rgba(255, 107, 107, 0.1)";
-  });
-
-  uploadZone.addEventListener("dragleave", function (e) {
-    e.preventDefault();
-    uploadZone.style.borderColor = "#d4a574";
-    uploadZone.style.backgroundColor = "";
-  });
-
-  uploadZone.addEventListener("drop", function (e) {
-    e.preventDefault();
-    uploadZone.style.borderColor = "#d4a574";
-    uploadZone.style.backgroundColor = "";
-    const files = e.dataTransfer.files;
-    if (files.length > 0) {
-      handleFileSelect(files[0]);
-    }
-  });
-
-  fileInput.addEventListener("change", function (e) {
-    if (e.target.files.length > 0) {
-      handleFileSelect(e.target.files[0]);
-    }
-  });
+// Gán lại sự kiện nút phân tích
+function bindAnalyzeButton() {
+  const btn = document.getElementById("analyzeBtn");
+  if (btn) {
+    btn.removeEventListener("click", analyzeImage); // Xoá trước nếu đã gán
+    btn.addEventListener("click", analyzeImage);
+  }
 }
 
+// Xử lý khi chọn ảnh
 function handleFileSelect(file) {
-  if (!file.type.startsWith("image/")) {
-    alert("Vui lòng chọn file hình ảnh!");
-    return;
-  }
-
-  if (file.size > 10 * 1024 * 1024) {
-    alert("File quá lớn! Vui lòng chọn file nhỏ hơn 10MB.");
-    return;
-  }
-
-  selectedImage = file;
+  const uploadZone = document.getElementById("uploadZone");
+  if (!file || !uploadZone) return;
 
   const reader = new FileReader();
   reader.onload = function (e) {
-    document.getElementById("uploadZone").innerHTML = `
-      <img src="${e.target.result}" class="prediction-image" alt="Preview">
+    uploadZone.innerHTML = `
+      <img src="${e.target.result}" class="prediction-image mb-3" alt="Ảnh tải lên">
       <div class="mt-3">
-        <h6>Ảnh đã được chọn: ${file.name}</h6>
-        <button class="btn btn-outline-secondary btn-sm" onclick="resetUpload()">
+        <h6>Ảnh đã chọn</h6>
+        <button class="btn btn-outline-secondary btn-sm" id="resetBtn">
           <i class="fas fa-times"></i> Chọn ảnh khác
         </button>
       </div>`;
-    document.getElementById("analyzeBtn").disabled = false;
+
+    window.selectedImage = file;
+
+    const analyzeBtn = document.getElementById("analyzeBtn");
+    if (analyzeBtn) {
+      analyzeBtn.disabled = false;
+      analyzeBtn.classList.remove("disabled");
+    }
+
+    // Gán lại sự kiện
+    document.getElementById("resetBtn")?.addEventListener("click", resetUpload);
+    bindAnalyzeButton();
   };
+
   reader.readAsDataURL(file);
 }
 
-function resetUpload() {
-  selectedImage = null;
-  document.getElementById("analyzeBtn").disabled = true;
-  document.getElementById("uploadZone").innerHTML = `
-    <input type="file" id="fileInput" accept="image/*" />
-    <div class="upload-content">
-      <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
-      <h5>Thả ảnh vào đây hoặc click để chọn</h5>
-      <p class="text-muted">Hỗ trợ JPG, PNG, GIF (tối đa 10MB)</p>
-    </div>`;
-  setupFileUpload();
+// Kéo thả ảnh
+function setupFileUpload() {
+  const uploadZone = document.getElementById("uploadZone");
+
+  if (!uploadZone) return;
+
+  uploadZone.addEventListener("click", () => {
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "image/*";
+    input.onchange = () => {
+      if (input.files && input.files[0]) {
+        handleFileSelect(input.files[0]);
+      }
+    };
+    input.click();
+  });
+
+  uploadZone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    uploadZone.classList.add("drag-over");
+  });
+
+  uploadZone.addEventListener("dragleave", () => {
+    uploadZone.classList.remove("drag-over");
+  });
+
+  uploadZone.addEventListener("drop", (e) => {
+    e.preventDefault();
+    uploadZone.classList.remove("drag-over");
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      handleFileSelect(e.dataTransfer.files[0]);
+    }
+  });
 }
 
-function analyzeImage() {
-  if (!selectedImage) return;
+// Hàm normalize key
+function normalizeKey(name) {
+  return name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "_")
+    .toLowerCase();
+}
 
-  document.getElementById("loadingSpinner").style.display = "block";
-  document.getElementById("analyzeBtn").disabled = true;
+// results.js
+function displayResults(data) {
+  const container = document.getElementById("resultsContent");
+  if (!container || !data || !data.results) return;
+
+  const name = data.best_prediction || "Không xác định";
+
+  // Hiển thị ảnh preview
+  let imageURL = "";
+  if (window.selectedImage) {
+    imageURL = URL.createObjectURL(window.selectedImage);
+  }
+
+  let html = `
+    <div class="col-12 mb-4">
+      <div class="card shadow-sm overflow-hidden">
+        <div class="row g-0">
+          <div class="col-md-4 bg-light d-flex justify-content-center align-items-center" style="min-height: 250px;">
+            <img src="${imageURL}" class="img-fluid object-fit-contain p-3" style="max-height: 240px;" alt="Ảnh đã chọn">
+          </div>
+          <div class="col-md-8 p-3">
+            <h4 class="text-success">Món ăn được nhận diện:</h4>
+            <h2 class="text-primary fw-bold mb-3">${name}</h2>
+  `;
+
+  const models = data.results;
+
+  for (const key in models) {
+    const model = models[key];
+    html += `
+      <div class="mb-3">
+        <h5>${model.name || key}</h5>
+        <p class="mb-1">Kết quả chính: <strong>${
+          model.predicted_class
+        }</strong> (${(model.confidence * 100).toFixed(1)}%)</p>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-info" role="progressbar" style="width: ${
+            model.confidence * 100
+          }%" aria-valuenow="${
+      model.confidence * 100
+    }" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <ul class="list-group list-group-flush small">`;
+
+    if (model.top5 && Array.isArray(model.top5)) {
+      model.top5.forEach((item, index) => {
+        html += `
+          <li class="list-group-item d-flex justify-content-between">
+            <span>#${index + 1} ${item.class}</span>
+            <span>${(item.confidence * 100).toFixed(1)}%</span>
+          </li>`;
+      });
+    }
+
+    html += `</ul></div>`;
+  }
+
+  html += `</div></div></div></div>`;
+  container.innerHTML = html;
+
+  // Auto chuyển tab
+  const resultsTab = document.getElementById("results-tab");
+  if (resultsTab) {
+    new bootstrap.Tab(resultsTab).show();
+  }
+}
+
+// Phân tích ảnh
+function analyzeImage() {
+  const image = window.selectedImage;
+  if (!image) {
+    alert("Vui lòng chọn ảnh trước!");
+    return;
+  }
+
+  const analyzeBtn = document.getElementById("analyzeBtn");
+  if (analyzeBtn) {
+    analyzeBtn.disabled = true;
+    analyzeBtn.classList.add("disabled");
+  }
 
   const formData = new FormData();
-  formData.append("file", selectedImage);
+  formData.append("file", image);
 
-  fetch("/api/upload_and_predict", {
+  fetch(APP_CONFIG.API.UPLOAD_PREDICT, {
     method: "POST",
     body: formData,
   })
     .then((res) => res.json())
     .then((data) => {
-      document.getElementById("loadingSpinner").style.display = "none";
-      document.getElementById("analyzeBtn").disabled = false;
-
-      const normalizedKey = normalizeKey(data.best_prediction);
-      window.latestPredictionKey = normalizedKey;
-
-      if (data.status === "success") {
-        displayResults(data);
-        displayRecipe(normalizedKey);
-        displayTravel(normalizedKey);
-        switchTab("results");
-      } else {
-        alert("Phân tích thất bại: " + data.message);
+      if (!data || !data.best_prediction) {
+        alert("Không nhận diện được món ăn!");
+        return;
       }
+
+      const predictionKey = normalizeKey(data.best_prediction);
+      console.log("Kết quả:", predictionKey);
+      displayResults(data);
+      displayRecipe(predictionKey);
+      TravelManager.displayTravel(predictionKey);
     })
     .catch((err) => {
-      document.getElementById("loadingSpinner").style.display = "none";
-      document.getElementById("analyzeBtn").disabled = false;
-      alert("Lỗi hệ thống khi phân tích ảnh!");
-      console.error(err);
+      console.error("Lỗi phân tích:", err);
+      alert("Lỗi khi phân tích ảnh!");
     });
 }
 
-function displayResults(data) {
-  const container = document.getElementById("resultsContent");
-  const best = data.best_prediction || "Không rõ";
-  const models = data.results;
-
-  let html = `
-    <div class="col-12 mb-4">
-      <div class="result-header text-center">
-        <h5 class="mb-3">
-          <i class="fas fa-trophy text-warning me-2"></i>
-          Kết quả tốt nhất: <strong class="text-primary">${best}</strong>
-        </h5>
-        ${
-          selectedImage
-            ? `<img src="${URL.createObjectURL(
-                selectedImage
-              )}" class="prediction-image mb-3" alt="Ảnh đã phân tích">`
-            : ""
-        }
-      </div>
-    </div>`;
-
-  for (const key in models) {
-    const model = models[key];
-    const confidenceColor =
-      model.confidence > 0.8
-        ? "success"
-        : model.confidence > 0.5
-        ? "warning"
-        : "danger";
-
-    html += `
-      <div class="col-md-6 mb-4">
-        <div class="model-card">
-          <div class="d-flex justify-content-between align-items-center mb-2">
-            <h6 class="mb-0">${model.name}</h6>
-            <span class="badge bg-${confidenceColor}">${(
-      model.confidence * 100
-    ).toFixed(1)}%</span>
-          </div>
-
-          <div class="progress mb-2">
-            <div class="progress-bar bg-${confidenceColor}" role="progressbar" style="width: ${(
-      model.confidence * 100
-    ).toFixed(1)}%" aria-valuenow="${(model.confidence * 100).toFixed(
-      1
-    )}" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-
-          <p class="mb-1">
-            <strong>Dự đoán:</strong>
-            <span class="text-primary">${model.predicted_class}</span>
-          </p>
-
-          <h6 class="mb-2">Top 5 kết quả:</h6>
-          <div class="top5-list">
-            ${model.top5
-              .map(
-                (item, index) => `
-              <div class="top5-item">
-                <span class="rank">#${index + 1}</span>
-                <span class="class-name">${item.class}</span>
-                <span class="confidence">${(item.confidence * 100).toFixed(
-                  1
-                )}%</span>
-              </div>`
-              )
-              .join("")}
-          </div>
-        </div>
-      </div>`;
-  }
-
-  container.innerHTML = html;
-}
+// ===== EXPORT =====
+export {
+  analyzeImage,
+  setupFileUpload,
+  normalizeKey,
+  bindAnalyzeButton,
+  displayResults,
+  handleFileSelect,
+};

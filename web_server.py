@@ -1,7 +1,9 @@
-from flask import Flask
+from flask import Flask, jsonify
 from config import HOST, PORT, UPLOAD_FOLDER, RESULT_FOLDER, CLASS_NAMES_PATH, RECIPES_PATH, MODEL_PATHS, DESTINATIONS_PATH
 import os, json, logging
 from tensorflow.keras.models import load_model
+from esp_status import update_status, get_status
+
 
 
 # Flask app
@@ -33,6 +35,8 @@ try:
     if os.path.exists(MODEL_PATHS['model1']):
         model1 = load_model(MODEL_PATHS['model1'])
         logger.info("Model 1 loaded")
+        update_status(status="startup")
+
 
     if os.path.exists(MODEL_PATHS['model2']):
         from tensorflow.keras.layers import Conv2D, Layer, Dense, GlobalAveragePooling2D, GlobalMaxPooling2D, Reshape, Multiply, Add, Activation, Concatenate
@@ -99,3 +103,4 @@ if __name__ == '__main__':
 
 # Expose global models
 __all__ = ['model1', 'model2', 'class_names', 'destinations']
+

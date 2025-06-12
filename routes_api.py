@@ -1,9 +1,14 @@
 from flask import Blueprint, request, jsonify, url_for, send_file, current_app as app
 import os
+import requests
 import numpy as np
 from werkzeug.utils import secure_filename
 from utils import preprocess_image_for_prediction, find_recipe, create_comparison_chart
 from config import UPLOAD_FOLDER, TEMP_IMAGE_PATH, RESULT_FOLDER
+from functools import lru_cache
+import concurrent.futures
+from esp_status import update_status, get_status
+
 
 api_bp = Blueprint('api', __name__)
 
@@ -11,6 +16,11 @@ def setup_models(models, class_names):
     global model1, model2, class_labels
     model1, model2 = models.get('model1'), models.get('model2')
     class_labels = class_names
+
+@api_bp.route('/esp_status')
+def esp_status():
+    return jsonify(get_status())
+
 
 @api_bp.route('/upload_image', methods=['POST'])
 def upload_image():
@@ -47,11 +57,26 @@ def upload_and_predict():
     file.save(filepath)
 
     img_array, _ = preprocess_image_for_prediction(filepath)
+    update_status(status="recognizing")
     if img_array is None:
         return jsonify({'status': 'error', 'message': 'Failed to process image'}), 500
 
     results = {}
     best_prediction = None
+
+    @lru_cache(maxsize=100)
+    def cached_predict(image_hash):
+        return model.predict(image_array)
+
+    def predict_with_models(image_array):
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            future_model1 = executor.submit(model1.predict, image_array)
+            future_model2 = executor.submit(model2.predict, image_array)
+            
+            pred1 = future_model1.result()
+            pred2 = future_model2.result()
+            
+        return pred1, pred2
 
     if model1 is not None:
         pred1 = model1.predict(img_array)[0]
@@ -96,3 +121,21 @@ def upload_and_predict():
         'recipe': recipe,
         'image_url': image_url
     })
+
+@api_bp.route('/proxy/geocode')
+def proxy_geocode():
+    import requests
+
+    query = request.args.get("q")
+    if not query:
+        return jsonify({"error": "Missing query"}), 400
+
+    url = f"https://nominatim.openstreetmap.org/search?format=json&q={query}&limit=1"
+    headers = {
+        "User-Agent": "VietnamFoodApp/1.0"
+    }
+    try:
+        response = requests.get(url, headers=headers)
+        return jsonify(response.json())
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
